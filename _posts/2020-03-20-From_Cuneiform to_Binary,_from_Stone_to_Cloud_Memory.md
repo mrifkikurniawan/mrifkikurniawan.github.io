@@ -4,8 +4,6 @@ date: 2020-03-25
 permalink: /blog-posts/From_Cuneiform to_Binary, from_Stone_to_Cloud_Memory/
 related: true
 comments: true
-toc: true
-toc_sticky: true
 excerpt: 'How human technology on memory evolved over periods'
 tags:
   - History

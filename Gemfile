@@ -11,6 +11,7 @@ source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
 gem "minimal-mistakes-jekyll"
+gem "tzinfo-data"
 
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
@@ -24,7 +25,12 @@ group :jekyll_plugins do
   # gem "jekyll-archives"
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
+  gem "jekyll-paginate"
+  gem "jekyll-gist"
   gem 'hawkins'
+  gem "jemoji"
   gem "minimal-mistakes-jekyll"
   gem 'jekyll-include-cache'
+  gem 'jekyll-toc'
+  gem "jekyll-algolia"
 end

@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 theme                    : minimal-mistakes-jekyll
-# remote_theme             : mmistakes/minimal-mistakes
+# remote_theme             : "mmistakes/minimal-mistakes@4.22.0"
 minimal_mistakes_skin    : "aqua"
 classes                  : wide
 
@@ -223,6 +223,9 @@ defaults:
       comments: true
       share: true
       related: true
+      toc: true
+      toc_sticky: true
+      author_profile: true
       classes: wide
   # _pages
   - scope:
@@ -289,7 +292,8 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-include-cache
-  - 
+  - jekyll-toc
+  - jemoji
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -297,6 +301,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 
 
 # Archives
