@@ -226,7 +226,7 @@ defaults:
       toc: true
       toc_sticky: true
       author_profile: true
-      classes: wide
+    #   classes: wide
   # _pages
   - scope:
       path: ""
