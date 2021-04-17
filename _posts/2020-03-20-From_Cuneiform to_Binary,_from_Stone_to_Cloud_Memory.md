@@ -7,6 +7,8 @@ comments: true
 excerpt: 'How human technology on memory evolved over periods'
 tags:
   - History
+header:
+  teaser: https://miro.medium.com/max/620/1*J6q_C4-gbvXS2_krJdxU9A.jpeg
 ---
 
 [[Medium](https://medium.com/@rifkikurniawan17/dari-cuneiform-hingga-biner-dari-batu-hingga-cloud-memory-bagaimana-kita-menyimpan-data-dari-40fbdf5707a1 "Medium")]
