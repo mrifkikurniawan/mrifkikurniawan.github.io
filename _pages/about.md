@@ -18,6 +18,7 @@ Moreover, I am a master student at Computer Science and Technology, [Xi'an Jiaot
 Here my complete [Curriculum Vitae (CV)](https://intip.in/cvrifkik "Curriculum Vitae (CV)")
 
 ## News
+**20-04-2021** I have accepted as the participant of [Nordic Probabilistic AI](https://probabilistic.ai/) summer school  
 **24-11-2020** Our project in Data Science Indonesia to build [Data Science Curriculum/Learning Path](https://github.com/datascienceid/datasciencecurriculum) has officially published, feel free to contribute to this project.  
 **10-09-2020** I get the opportunity to join [Prof. Yihong Gong](https://scholar.google.com/citations?user=x2xdU7gAAAAJ&hl=en) lab with supervision under [Dr. Xing Wei](https://scholar.google.com/citations?user=KNyC5EUAAAAJ&hl=en) working on Continual Learning  
 **01-09-2020** I have got accepted at Master program of Computer Science and Technology at [Xi'an Jiaotong University](http://www.xjtu.edu.cn/)  
