@@ -11,3 +11,19 @@ citation: 'Arifin, S., Mahistha, D. S. P., Ukhti, M. F., Kurniawan, M. R., & Ais
 The object the research is to forecast maritime weather variables such wind speed and direction, temperature and wave height for an hour ahead by using artificial intelligence approach. Artificial intelligence is comprised of hybrid neural networks modified by genetic algorithms and particle swarm optimization which are functioned as a model predictor. The hybrid predictor works on every single predictor by weighing both artificial neural network-genetic algorithm (ANN-GA) and artificial neural network-particle swarm optimization (ANN-PSO) which weight is calculated by differential evolution algorithm optimization. When the unsurpassed model is obtained, it will be validated across real-time data that is delivered from type II buoyweather station measurement at the Madura Strait, Java Sea. The prediction results of learning and validation process indicate that the ANN-Hybrid predictor perform more accurate than the ANN-GA and ANN PSO on training and validation. However, the gap of RMSE on real-time test is relatively high compared to validation or training. It can be influenced by the different frequent of weather fluctuation between them. Concurring to real-time test stage, the foremost appropriate variable that predicted by this ANN-Hybrid is temperature.
 
 [[Paper](https://aip.scitation.org/doi/abs/10.1063/1.5095287)]
+
+
+Citation:
+```
+@article{doi:10.1063/1.5095287,
+author = {Arifin,Syamsul  and Mahistha,Dvitiya Srestha Prajna  and Ukhti,Magfiroh Fatwaning  and Kurniawan,Muhammad Rifki  and Aisjah,Aulia Siti },
+title = {Optimization of neural network based on hybrid method of genetic algorithm and particle swarm optimization for maritime weather forecasting in buoyweather station type II},
+journal = {AIP Conference Proceedings},
+volume = {2088},
+number = {1},
+pages = {020035},
+year = {2019},
+doi = {10.1063/1.5095287},
+URL = {https://aip.scitation.org/doi/abs/10.1063/1.5095287},
+eprint = {https://aip.scitation.org/doi/pdf/10.1063/1.5095287}}
+```
