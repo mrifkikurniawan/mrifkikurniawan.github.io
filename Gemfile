@@ -33,4 +33,5 @@ group :jekyll_plugins do
   gem 'jekyll-include-cache'
   gem 'jekyll-toc'
   gem "jekyll-algolia"
+  gem 'jekyll-scholar'
 end

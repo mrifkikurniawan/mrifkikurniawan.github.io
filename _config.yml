@@ -54,6 +54,12 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+scholar:
+  style: ieee-with-url
+  locale: en
+  source: _posts/
+  bibliography: library.bib
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -295,6 +301,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-toc
   - jemoji
+  - jekyll-scholar
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
