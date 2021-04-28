@@ -1,4 +1,309 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-06T10:48:24-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Profil Page</title><subtitle>Artificial Intelligence Engineering at Nodeflux | B.Eng of Engineering Physics</subtitle><author><name>Muhammad Rifki Kurniawan</name><email>mrifkikurniawan17@gmail.com</email></author><entry><title type="html">From Cuneiform to Binary, from Stone to Cloud Memory</title><link href="http://localhost:4000/blog-posts/From_Cuneiform%20to_Binary,%20from_Stone_to_Cloud_Memory/" rel="alternate" type="text/html" title="From Cuneiform to Binary, from Stone to Cloud Memory" /><published>2020-03-25T00:00:00-07:00</published><updated>2020-03-25T00:00:00-07:00</updated><id>http://localhost:4000/blog-posts/From_Cuneiform%20to_Binary,_from_Stone_to_Cloud_Memory</id><content type="html" xml:base="http://localhost:4000/blog-posts/From_Cuneiform%20to_Binary,%20from_Stone_to_Cloud_Memory/">&lt;p&gt;[&lt;a href=&quot;https://medium.com/@rifkikurniawan17/dari-cuneiform-hingga-biner-dari-batu-hingga-cloud-memory-bagaimana-kita-menyimpan-data-dari-40fbdf5707a1&quot; title=&quot;Medium&quot;&gt;Medium&lt;/a&gt;]&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-28T07:52:31-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Profil Page</title><subtitle>Artificial Intelligence Engineering at Nodeflux | B.Eng of Engineering Physics</subtitle><author><name>Muhammad Rifki Kurniawan</name><email>mrifkikurniawan17@gmail.com</email></author><entry><title type="html">Catastrophic Forgetting in Neural Networks Explained</title><link href="http://localhost:4000/blog-posts/Catastrophic_Forgetting/" rel="alternate" type="text/html" title="Catastrophic Forgetting in Neural Networks Explained" /><published>2021-03-30T00:00:00-07:00</published><updated>2021-03-30T00:00:00-07:00</updated><id>http://localhost:4000/blog-posts/Catastrophic_Forgetting_in_Neural_Networks_Explained</id><content type="html" xml:base="http://localhost:4000/blog-posts/Catastrophic_Forgetting/">&lt;h1 id=&quot;what-is-catastrophic-forgetting&quot;&gt;What is Catastrophic Forgetting?&lt;/h1&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;How humans learn is both extremely fascinating and mysterious especially when it comes to the capability to continuously learn new knowledge and skills without forgetting the past experiences. As an example, while we observe the physics phenomena such as the gravitation mechanism and, afterward, acquire new knowledge how the chemistry works, we are able to remember what gravitation is about and explain it effortlessly. In contrast, from the learning intelligence machine perspective, deep learning scientists highly struggle to incorporate the lifelong learning ability into machine learning architecture such as neural networks.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;The catastrophic forgetting or alternatively called catastrophic
+interference was observed initially by McColskey and Cohen&lt;a class=&quot;citation&quot; href=&quot;#McCloskey1989&quot;&gt;[1]&lt;/a&gt; in 1898 on shallow 3-layers neural networks who realized that connectionist networks — a common term in 19’s substituting ‘neural networks’ — trained on sequential learning prone
+to erasing the past learned knowledge. They concluded that adjusting
+networks weights representing the old knowledge while training caused
+catastrophic interference and it was precipitated and compounded by
+distributed representation as the recognized useful properties of
+Multi-layer Perceptrons.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Later, this is considered as a more expanded discipline of
+‘plasticity-stability dilemma&lt;a class=&quot;citation&quot; href=&quot;#French1999&quot;&gt;[2]&lt;/a&gt;. As a means of the study of tuning the parameters by discovering the most optimum learning algorithm to let the neural networks acquire new knowledge and be sensitive to distributional shifting — known as plasticity — but maintaining the past knowledge to address the forgetting — known as stability. Highly plastic networks potentially suffer from forgetting the past encoded knowledge and oppositely very stable networks could be trouble with efficient information encoding at synapse level&lt;a class=&quot;citation&quot; href=&quot;#Mermillod2013&quot;&gt;[3]&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;In contrast, cognitive sciences see beyond the field as studying
+determining whether the earlier acquired knowledge in life is more
+memorized than the knowledge acquired in the coming age or called ‘The
+Entrenchment Effect’&lt;a class=&quot;citation&quot; href=&quot;#Mermillod2013&quot;&gt;[3]&lt;/a&gt;. Therefore, it seems a little bit different between what plasticity-stability stands for in deep learning and the cognitive science community.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;While the neural networks adapt flexibly to the new incoming knowledge,
+it will serendipitously experience catastrophic forgetting. Conversely,
+networks that are prone to being unable to discriminate the new incoming inputs if the networks are extremely stable or commonly known as catastrophic remembering&lt;a class=&quot;citation&quot; href=&quot;#Kaushik2021&quot;&gt;[4]&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Contemporarily, deep learning is trained on top of a weak but useful
+assumption of &lt;a href=&quot;https://deepai.org/machine-learning-glossary-and-terms/independent-and-identically-distributed-random-variables&quot;&gt;i.i.d (independent and identically distributed)&lt;/a&gt; setting which means that the data points are supposed to be mutually independent  — single data is unrelated to other data point — and
+having similar distribution e.g. training data is assumed to have
+equivalent distribution to test data. Therefore, the common training
+setting takes the batch of samples and updates the model parameters with respect to the loss value on this batch. However, the assumption is not applicable for real-time application such as sequentially data stream training settings just like continual learning and accidentally leads to catastrophic forgetting.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Shortly, catastrophic forgetting is the radical performance drops of the model $f(X;\theta)$ which parameterized by $\theta$ with input $X$ — mostly neural networks exhibit distributed representation[1] — that map $X \rightarrow Y$ performing on previously learned tasks $t_{t}$ after learning on task $t_{n}$ where &lt;em&gt;t&lt;/em&gt; &amp;lt; &lt;em&gt;n&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;media/image1.jpeg&quot; alt=&quot;&quot; /&gt;{width=”6.5in” height=”3.466666666666667in”}&lt;/p&gt;
+
+&lt;p&gt;Figure 1&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Consider as an illustration our neural networks train to discriminate
+between two classes of cat and dog. Therefore, the network is trained on bunches of datasets containing any variants of cat and dog for some
+epochs. Thereafter we want our model to recognize 2 additional classes
+of tiger and elephant. Hence, we should train the model with task 2
+dataset holding batches of samples of tiger and elephant. In the continual learning setting, we are not allowed to train the model on
+both task datasets and getting access to the existing dataset only —
+cluster of tigers and elephants images in this case. As a result, the
+model will update the parameters to optimizely perform good at present
+task or task 2 and forget how to predict the task 1 classes given task 1 dataset; therefore, reducing the performance on task 1 or called
+catastrophic forgetting.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-do-neural-networks-forget&quot;&gt;How Do Neural Networks Forget?&lt;/h1&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Mostly the standard approach for training the neural networks model is
+using standard backpropagation with gradient-based optimization in
+particular stochastic gradient descent (SGD)&lt;a class=&quot;citation&quot; href=&quot;#Robbins1951&quot;&gt;[5]&lt;/a&gt; or more sophisticated one like Adam&lt;a class=&quot;citation&quot; href=&quot;#Kingma2015&quot;&gt;[6]&lt;/a&gt;. Updating parameters via SGD as below&lt;/p&gt;
+
+\[\theta \leftarrow \theta - \eta\frac{\partial\mathcal{L}}{\partial\theta}\]
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Require $\eta$ for tuning the updating magnitude or called learning rate on gradient of loss with respect to parameters. However, these networks trained by gradient-based optimization algorithms are prone to encounter catastrophic forgetting. The common reason is coming from the primary factor of parameters drift while the neural networks train by taking steps to updating parameters aiming to minimize the loss on task t. Thanks to Masana et al&lt;a class=&quot;citation&quot; href=&quot;#Masana2020&quot;&gt;[7]&lt;/a&gt; briefly summarize the factors of forgetting, those are including parameters shifting, logits shifting, and Inter-domain/inter-task confusion.&lt;/p&gt;
+
+&lt;h2 id=&quot;parameters-shifting&quot;&gt;Parameters shifting&lt;/h2&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Parameters update while taking steps in order to minimize the loss while training the networks.&lt;/p&gt;
+
+&lt;h2 id=&quot;logits-shifting&quot;&gt;Logits shifting&lt;/h2&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Direct implication of parameters shifting that bring into distribution
+shift of the logits output given the certain input.&lt;/p&gt;
+
+&lt;h2 id=&quot;inter-domaininter-task-confusion&quot;&gt;Inter-domain/inter-task confusion&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;media/image2.png&quot; alt=&quot;&quot; /&gt;{width=”3.1666666666666665in”
+height=”0.9666666666666667in”}&lt;/p&gt;
+
+&lt;p&gt;Figure 2&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;The decision boundary adjustment leading to inter-task or inter-domain
+misclassification due to sequential learning setting on continual
+learning.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;media/image3.png&quot; alt=&quot;&quot; /&gt;{width=”5.708333333333333in” height=”2.6in”}&lt;/p&gt;
+
+&lt;p&gt;Figure 3&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Take an example of a binary classification task — predicting whether
+given input &lt;em&gt;X&lt;/em&gt; resulting discrete label 0 or 1 — as illustrated in
+the figure 2 above, at the beginning the networks learn to predict the
+dataset distribution on task 1 in such a way that resulting the model
+$f(X;\theta_{0})$ with obtained parameters $\theta_{0}$.  Then whenever
+the model acquires the new knowledge from dataset distribution on task 2 without certain continual learning technique, it will suffer from
+catastrophic forgetting on distribution dataset on task 1 due to
+parameters drift as consequence of distribution drift which lead to
+accidentally changing in decision boundary. In contrast, the ideal case
+should be like the right image in figure 2 which the model performs well by generating a decision boundary that captures discriminative features on both distributions. This setting can be conveniently achieved on &lt;a href=&quot;https://ruder.io/multi-task/&quot;&gt;multi-task learning&lt;/a&gt; settings while running the training on both dataset distributions but highly difficult for continual learning.&lt;/p&gt;
+
+&lt;h1 id=&quot;measuring-catastrophic-forgetting&quot;&gt;Measuring catastrophic forgetting&lt;/h1&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;How to measure catastrophic forgetting could perhaps be separated into
+two perspectives thus quantifying to what extent the networks model is
+able to acquire new knowledge without forgetting and the other examine
+how fast the networks models adapt to past knowledge while relearning
+the past task after training on present task, both measurements called
+&lt;strong&gt;retention&lt;/strong&gt; and &lt;strong&gt;relearning&lt;/strong&gt; respectively&lt;a class=&quot;citation&quot; href=&quot;#Ashley2021&quot;&gt;[8]&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;retention&quot;&gt;Retention&lt;/h2&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Retention is most commonly used as a measuring technique for continual
+learning including incremental class learning or task incremental
+learning in the machine learning community nowadays. Simply training the networks until mastering on task 1, then moving forward to task 2 and let the networks mastering on task 2 and followed by measuring the
+accuracy metrics on task 1 and 2 independently is categorized as one of
+the retention measurements&lt;a class=&quot;citation&quot; href=&quot;#Ashley2021&quot;&gt;[8]&lt;/a&gt;. Additionally, &lt;a class=&quot;citation&quot; href=&quot;#Rebuffi2017&quot;&gt;[9]&lt;/a&gt; proposed widely adopted measuring technique called &lt;em&gt;average incremental accuracy&lt;/em&gt; as formalized by following equation&lt;/p&gt;
+
+\[accuracy = \frac{1}{T}\sum_{t = 1}^{T}A_{t}\]
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;, where &lt;em&gt;T&lt;/em&gt; is the number of tasks has been encountered so far.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;However, more complicated one has been proposed past two years by &lt;a class=&quot;citation&quot; href=&quot;#Kemker2018&quot;&gt;[10]&lt;/a&gt; which introducing&lt;/p&gt;
+
+\[\Omega_{\text{base}} = \frac{1}{T - 1}\sum_{i = 2}^{T}\frac{\alpha_{base,i}}{\alpha_{\text{ideal}}}\]
+
+\[\Omega_{\text{new}} = \frac{1}{T - 1}\sum_{i = 2}^{T}\alpha_{new,i}\]
+
+\[\Omega_{\text{all}} = \frac{1}{T - 1}\sum_{i = 2}^{T}\frac{\alpha_{all,i}}{\alpha_{\text{ideal}}}\]
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;$T$ is the total tasks/sessions have been trained so far,
+$\alpha_{new,i}$ denotes accuracy on test set for session &lt;em&gt;i&lt;/em&gt; after
+learned on session &lt;em&gt;i&lt;/em&gt;,$\ \alpha_{base,i}$ is the measurement of
+accuracy on base class/first session after learning on sesion &lt;em&gt;i&lt;/em&gt;, while $\alpha_{all,i}$ is accuracy metric on all session given model trained on session &lt;em&gt;i&lt;/em&gt;, and $\alpha_{\text{ideal}}$ indicates the offline model accuracy on the base set, which assumed the ideal performance or sometime many experiments in continual learning anchor multi-task learning setting as ideal case as subsequently as the upper-bound.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;$\Omega_{\text{base}}$ indicates the model’s retention relative to the
+first session given trained model in later sessions. $\Omega_{\text{new}}$ measures the accuracy on training session &lt;em&gt;i&lt;/em&gt; while the model is trained on session &lt;em&gt;i&lt;/em&gt; as well, it is used for model’s ability to immediately recall new tasks. While, $\Omega_{\text{all}}$ denotes the measurement for how well the model retain all session after trained on session &lt;em&gt;i&lt;/em&gt;. Besides, the function of alpha ideal here for normalization for ease to compare between datasets.&lt;/p&gt;
+
+&lt;h2 id=&quot;relearning&quot;&gt;Relearning&lt;/h2&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Frequently overlooked by existing recent experiments, relearning is
+another essential measure in catastrophic forgetting which was initially proposed in physiological study by Hermann Ebbinghaus known as ‘savings’ but implemented as metrics in catastrophic forgetting by
+Hetherington&lt;a class=&quot;citation&quot; href=&quot;#Hetherington1989&quot;&gt;[11]&lt;/a&gt;. ‘Saving’ metrics measure the saved knowledge and how fast the networks relearn the past knowledge. This metric is built on top of the assumption that possibly networks are not totally unlearned the past knowledge but that their connections may save encoded important information of the past.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Practically it is measured via training the network on task 1 and task 2 sequentially, then retrain the networks on task 1 dataset and compare
+the time required for the network to learn task 1 on the first time
+against second time. Reducing time required to relearn the task 1
+indicates that the networks still saved the past information.&lt;/p&gt;
+
+&lt;h2 id=&quot;activation-overlap&quot;&gt;Activation Overlap&lt;/h2&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Activation overlap initially proposed by French&lt;a class=&quot;citation&quot; href=&quot;#French1993&quot;&gt;[12]&lt;/a&gt; who argue that due to distributed representation causing connectionist networks, forgetting can be measured by quantifying the overlapping in activation output. Recently, this formalized and modified by &lt;a class=&quot;citation&quot; href=&quot;#Ashley2021&quot;&gt;[8]&lt;/a&gt; by suggesting dot product of two different samples from whether intra-class or inter-class given same hidden parameters as following,&lt;/p&gt;
+
+\[s\left( a,b \right) = \frac{1}{n}\sum_{i = 0}^{n}{g_{\text{hi}}\left( a \right)\text{\ .\ \ }g_{\text{hi}}\left( b \right)}\]
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Where $g_{\text{hi}}$ indicates hidden layer &lt;em&gt;i&lt;/em&gt; parameters of the
+networks and $g_{\text{hi}}\left( x \right)$ indicating activation
+output of input $x$ given parameters $g_{\text{hi}}$.&lt;/p&gt;
+
+&lt;h2 id=&quot;pairwise-interference&quot;&gt;Pairwise Interference&lt;/h2&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Initially proposed by &lt;a class=&quot;citation&quot; href=&quot;#Liu2019a&quot;&gt;[13]&lt;/a&gt; and then implemented by
+&lt;a class=&quot;citation&quot; href=&quot;#Ghiassian2020&quot;&gt;[14]&lt;/a&gt; given sample &lt;em&gt;a&lt;/em&gt; and sample &lt;em&gt;b&lt;/em&gt; pairwise
+interference measure how large the interference of sample &lt;em&gt;b&lt;/em&gt;  for
+trained model ton sample &lt;em&gt;a&lt;/em&gt; which can be defined as follow&lt;/p&gt;
+
+\[\text{PI}\left( \theta_{t};a,b \right) = J\left( \theta_{t + 1};a \right) - \ J\left( \theta_{t};a \right)\]
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;. Where, $\theta_{t + 1}$ is a model obtained after training on sample
+&lt;em&gt;b&lt;/em&gt;, and $J(.)$ indicates objective function.&lt;/p&gt;
+
+&lt;h1 id=&quot;overcoming-forgetting-in-neural-networks&quot;&gt;Overcoming Forgetting in Neural Networks&lt;/h1&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Contemporarily mitigating catastrophic forgetting highly involved in
+subfield of machine learning so-called continual learning. Recent
+advancement approaches in dealing with the issue encompassing
+exemplar/prototypical/experience rehearsal/replay buffer, parameters
+regularization, and architectural modification or otherwise named
+modular approach. In spite of those, in the recent past one year some
+scientists extend the study of moderating catastrophic forgetting a.k.a.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;continual learning to the search of connectivity with multi-task
+learning &lt;a class=&quot;citation&quot; href=&quot;#Mirzadeh2020a&quot;&gt;[15]&lt;/a&gt;, loss landscape approximation&lt;a class=&quot;citation&quot; href=&quot;#Mirzadeh2020a&quot;&gt;[15]&lt;/a&gt;&lt;a class=&quot;citation&quot; href=&quot;#Yin2020a&quot;&gt;[16]&lt;/a&gt;, relatedness with transfer learning&lt;a class=&quot;citation&quot; href=&quot;#Ke2020&quot;&gt;[17]&lt;/a&gt;, more challenging task settings &lt;a class=&quot;citation&quot; href=&quot;#SonglinDong2020&quot;&gt;[18]&lt;/a&gt;, &lt;a class=&quot;citation&quot; href=&quot;#Zhao2020&quot;&gt;[19]&lt;/a&gt;, &lt;a class=&quot;citation&quot; href=&quot;#Bertugli2020&quot;&gt;[20]&lt;/a&gt;, &lt;a class=&quot;citation&quot; href=&quot;#Caccia2020&quot;&gt;[21]&lt;/a&gt;, &lt;a class=&quot;citation&quot; href=&quot;#Ren2019&quot;&gt;[22]&lt;/a&gt;, &lt;a class=&quot;citation&quot; href=&quot;#Dhamija2021&quot;&gt;[23]&lt;/a&gt;, &lt;a class=&quot;citation&quot; href=&quot;#Rao2019&quot;&gt;[24]&lt;/a&gt; and even expanding beyond image classification task.&lt;/p&gt;
+
+&lt;h2 id=&quot;rehearsalreplay&quot;&gt;Rehearsal/Replay&lt;/h2&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Rehearsal/replay approach is dealing with catastrophic forgetting
+modestly by replaying the bunch of memory of past knowledge so-called
+“episodic memory”, e.g., samples of images, into the existing training
+steps while learning the novel knowledges e.g., new classes. Therefore,
+the catastrophic interference can be diminished as consequence of the
+updating parameters in respect of considering batch of combining
+existing datasets with small buffer of replayed episodic memory. Among
+others this technique was mostly explored and proposed in past five
+years in continual learning seeing its simplicity and effectiveness as
+baseline for continual learning experiments.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;media/image4.png&quot; alt=&quot;&quot; /&gt;{width=”4.707699037620298in”
+height=”2.6611570428696414in”}&lt;/p&gt;
+
+&lt;p&gt;Figure 4. Image source: &lt;a class=&quot;citation&quot; href=&quot;#Parisi2019a&quot;&gt;[25]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;The similar mechanism also occurs in our brain when sleeping since our
+brain will reactivate and rehearse the past freshly acquired knowledges
+memorized periodically in hippocampus into peripheral permanent memory
+in neocortex. As suggested in theory of Complementary Learning System
+(CLS) &lt;a class=&quot;citation&quot; href=&quot;#McClelland1995&quot;&gt;[26]&lt;/a&gt; shown in &lt;a href=&quot;#_Toc68717821&quot;&gt;Figure 4&lt;/a&gt; above, the Hippocampus encodes recent events or experiences via fast learning and these will be unconsciously reactivated while sleeping for gradual consolidation mechanism into neocortical memory systems.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;However, the most challenging specialties are both how to sampling the
+most significant examples and what kind of representations from the
+dataset that necessarily be rehearsed into future learning phase while
+minimizing catastrophic interference. Many of the latest research
+concerned with this issue along with proposing novel sampling echniques
+or including random sampling, uniform sampling, reservoir sampling&lt;a class=&quot;citation&quot; href=&quot;#Vitter1985&quot;&gt;[27]&lt;/a&gt;&lt;a class=&quot;citation&quot; href=&quot;#Kim2020a&quot;&gt;[28]&lt;/a&gt;, distance-based sampling &lt;a class=&quot;citation&quot; href=&quot;#Pomponi2020a&quot;&gt;[29]&lt;/a&gt;, maximally interfered sampling&lt;a class=&quot;citation&quot; href=&quot;#Aljundi2019a&quot;&gt;[30]&lt;/a&gt;, among others. On the other hand, replaying expressive representations involve naïve image replay, embedding replay, anchor replay, and topological/relational replay.&lt;/p&gt;
+
+&lt;p&gt;Among those are&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Image replay:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Generative replay:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Embedding replay:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Relational representation replay&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Anchor replay:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;regularization&quot;&gt;Regularization&lt;/h2&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Measuring the any past information, including parameters, importance
+relevant to both past task loss value and accuracy metrics and
+restricting the extreme updates to this information while learning is
+the other strategy named regularization approach. This is conceivably
+conjectured as the mechanism to control plasticity-stability dilemma of
+the neural networks on the subject of continual updates. As consequent,
+the restraint adopted to the information of interest, such as parameters, guarantee the minimization of interfered information
+essential for the prior task.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Up till now, according to &lt;a class=&quot;citation&quot; href=&quot;#Delange2021&quot;&gt;[31]&lt;/a&gt;, some of experiments can be clustered into prior-focus/parameters-based and data-focused/logits-based regularization. Parameters-based control the model parameters distribution and plasticity-stability. While, data-focused distil the logits (model outputs before activation function) of given inputs inferenced on the present model as manoeuvre to recall past knowledge.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Positive/negative&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mention the forefront methods&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Among those are&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Parameters-based&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Data-based&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Mention latest methods&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;architectural&quot;&gt;Architectural&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;What is&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;While architectural-based approach mainly concerned with constructing
+progressive neural networks while learning novel tasks or knowledges
+either by producing single-independent head on classifier per class/task or rewiring the connections in neural networks layers while
+incrementally learning novel tasks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Positive/negative&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Biological Plausible&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mention the forefront methods&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mention latest methods&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;McCloskey1989&quot;&gt;[1]M. McCloskey and N. J. Cohen, “Catastrophic Interference in Connectionist Networks: The Sequential Learning Problem,” &lt;i&gt;Psychology of Learning and Motivation - Advances in Research and Theory&lt;/i&gt;, vol. 24, no. C, pp. 109–165, 1989, doi: 10.1016/S0079-7421(08)60536-8. &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;French1999&quot;&gt;[2]R. French, “Catastrophic forgetting in connectionist networks,” &lt;i&gt;Trends in Cognitive Sciences&lt;/i&gt;, vol. 3, no. 4, pp. 128–135, Apr. 1999, doi: 10.1016/S1364-6613(99)01294-2. [Online]. Available at: https://linkinghub.elsevier.com/retrieve/pii/S1364661399012942&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Mermillod2013&quot;&gt;[3]M. Mermillod, A. Bugaiska, and P. Bonin, “The stability-plasticity dilemma: investigating the continuum from catastrophic forgetting to age-limited learning effects,” &lt;i&gt;Frontiers in Psychology&lt;/i&gt;, vol. 4, no. August, pp. 1–3, 2013, doi: 10.3389/fpsyg.2013.00504. &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Kaushik2021&quot;&gt;[4]P. Kaushik, A. Gain, A. Kortylewski, and A. Yuille, “Understanding Catastrophic Forgetting and Remembering in Continual Learning with Optimal Relevance Mapping,” 2021 [Online]. Available at: http://arxiv.org/abs/2102.11343&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Robbins1951&quot;&gt;[5]H. Robbins and S. Monro, “A Stochastic Approximation Method,” &lt;i&gt;The Annals of Mathematical Statistics&lt;/i&gt;, vol. 22, no. 3, pp. 400–407, 1951, doi: 10.1214/aoms/1177729586. &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Kingma2015&quot;&gt;[6]D. P. Kingma and J. L. Ba, “Adam: A method for stochastic optimization,” &lt;i&gt;3rd International Conference on Learning Representations, ICLR 2015 - Conference Track Proceedings&lt;/i&gt;, pp. 1–15, 2015. &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Masana2020&quot;&gt;[7]M. Masana, X. Liu, B. Twardowski, M. Menta, A. D. Bagdanov, and J. V. D. Weijer, “Class-incremental learning : survey and performance evaluation,” &lt;i&gt;arXiv Preprint&lt;/i&gt;, pp. 1–24, 2020. &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Ashley2021&quot;&gt;[8]D. R. Ashley, S. Ghiassian, and R. S. Sutton, “Does Standard Backpropagation Forget Less Catastrophically Than Adam?,” 2021 [Online]. Available at: http://arxiv.org/abs/2102.07686&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Rebuffi2017&quot;&gt;[9]S.-A. Rebuffi, A. Kolesnikov, G. Sperl, and C. H. Lampert, “iCaRL: Incremental Classifier and Representation Learning,” in &lt;i&gt;2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)&lt;/i&gt;, 2017, vol. 2017-Janua, pp. 5533–5542, doi: 10.1109/CVPR.2017.587 [Online]. Available at: http://arxiv.org/abs/1611.07725 http://ieeexplore.ieee.org/document/8100070/&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Kemker2018&quot;&gt;[10]R. Kemker, M. McClure, A. Abitino, T. L. Hayes, and C. Kanan, “Measuring catastrophic forgetting in neural networks,” &lt;i&gt;32nd AAAI Conference on Artificial Intelligence, AAAI 2018&lt;/i&gt;, pp. 3390–3398, 2018. &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Hetherington1989&quot;&gt;[11]P. A. Hetherington and M. S. Seidenberg, “Is there ‘catastrophic interference’ in connectionist networks,” in &lt;i&gt;Proceedings of the 11th annual conference of the cognitive science society&lt;/i&gt;, 1989, vol. 26, p. 33 [Online]. Available at: http://scholar.google.com/scholar?q=related:6OvJaVLsTzwJ:scholar.google.com/&amp;amp;hl=en&amp;amp;as_sdt=0,10#3&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;French1993&quot;&gt;[12]R. French and M. French, “Using Semi-Distributed Representations to Overcome Catastrophic Forgetting in Connectionlst Networks,” &lt;i&gt;Proceedings of the AAAI Spring Symposium&lt;/i&gt;, no. JANUARY 1992, pp. 70–77, 1993. &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Liu2019a&quot;&gt;[13]V. Liu, “Sparse Representation Neural Networks for Online Reinforcement Learning,” 2019. &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Ghiassian2020&quot;&gt;[14]S. Ghiassian, B. Rafiee, Y. L. Lo, and A. White, “Improving performance in reinforcement learning by breaking generalization in neural networks,” &lt;i&gt;Proceedings of the International Joint Conference on Autonomous Agents and Multiagent Systems, AAMAS&lt;/i&gt;, vol. 2020-May, no. 1, pp. 438–446, 2020. &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Mirzadeh2020a&quot;&gt;[15]S. I. Mirzadeh, M. Farajtabar, D. Gorur, R. Pascanu, and H. Ghasemzadeh, “Linear mode connectivity in multitask and continual learning,” in &lt;i&gt;Iclr 2021&lt;/i&gt;, 2020 [Online]. Available at: https://arxiv.org/abs/2010.04495 https://github.com/imirzadeh/MC-SGD&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Yin2020a&quot;&gt;[16]D. Yin, M. Farajtabar, A. Li, N. Levine, and A. Mott, “Optimization and Generalization of Regularization-Based Continual Learning: a Loss Approximation Viewpoint,” pp. 1–17, Jun. 2020 [Online]. Available at: http://arxiv.org/abs/2006.10974&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Ke2020&quot;&gt;[17]Z. Ke, B. Liu, and X. Huang, “Continual Learning of a Mixed Sequence of Similar and Dissimilar Tasks,” &lt;i&gt;NeurIPS&lt;/i&gt;, no. NeurIPS, pp. 1–12, 2020 [Online]. Available at: https://github.com/ZixuanKe/CAT&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;SonglinDong2020&quot;&gt;[18]Songlin Dong, X. Hong, X. Tao, X. Chang, X. Wei, and Y. Gong, “Few-Shot Class-Incremental Learning via Relation Knowledge Distillation,” in &lt;i&gt;35th AAAI Conference on Artificial Intelligence, AAAI 2021&lt;/i&gt;, 2020. &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Zhao2020&quot;&gt;[19]H. Zhao, Y. Fu, X. Li, S. Li, B. Omar, and X. Li, “Few-shot class-incremental learning via feature space composition,” &lt;i&gt;arXiv&lt;/i&gt;, 2020. &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Bertugli2020&quot;&gt;[20]A. Bertugli, S. Vincenzi, S. Calderara, and A. Passerini, “Few-shot unsupervised continual learning through meta-examples,” &lt;i&gt;arXiv&lt;/i&gt;, no. NeurIPS, 2020. &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Caccia2020&quot;&gt;[21]M. Caccia &lt;i&gt;et al.&lt;/i&gt;, “Online Fast Adaptation and Knowledge Accumulation: a New Approach to Continual Learning,” 2020 [Online]. Available at: http://arxiv.org/abs/2003.05856 https://github.com/ElementAI/osaka&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Ren2019&quot;&gt;[22]M. Ren, R. Liao, E. Fetaya, and R. S. Zemel, “Incremental few-shot learning with attention attractor networks,” &lt;i&gt;Advances in Neural Information Processing Systems&lt;/i&gt;, vol. 32, no. NeurIPS, pp. 1–15, 2019 [Online]. Available at: https://github.com/renmengye/inc-few-shot-attractor-public&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Dhamija2021&quot;&gt;[23]A. R. Dhamija, T. Ahmad, J. Schwan, M. Jafarzadeh, C. Li, and T. E. Boult, “Self-Supervised Features Improve Open-World Learning,” 2021 [Online]. Available at: http://arxiv.org/abs/2102.07848&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Rao2019&quot;&gt;[24]D. Rao, F. Visin, A. A. Rusu, Y. W. Teh, R. Pascanu, and R. Hadsell, “Continual unsupervised representation learning,” &lt;i&gt;Advances in Neural Information Processing Systems&lt;/i&gt;, vol. 32, 2019. &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Parisi2019a&quot;&gt;[25]G. I. Parisi, R. Kemker, J. L. Part, C. Kanan, and S. Wermter, “Continual lifelong learning with neural networks: A review,” &lt;i&gt;Neural Networks&lt;/i&gt;, vol. 113, pp. 54–71, May 2019, doi: 10.1016/j.neunet.2019.01.012. [Online]. Available at: http://www.sciencedirect.com/science/article/pii/S0893608019300231&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;McClelland1995&quot;&gt;[26]J. L. McClelland, B. L. McNaughton, and R. C. O’Reilly, “Why There Are Complementary Learning Systems in the Hippocampus and Neocortex: Insights From the Successes and Failures of Connectionist Models of Learning and Memory,” &lt;i&gt;Psychological Review&lt;/i&gt;, vol. 102, no. 3, pp. 419–457, 1995. &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Vitter1985&quot;&gt;[27]J. S. Vitter, “Random sampling with a reservoir,” &lt;i&gt;ACM Transactions on Mathematical Software&lt;/i&gt;, vol. 11, no. 1, pp. 37–57, Mar. 1985, doi: 10.1145/3147.3165. [Online]. Available at: https://dl.acm.org/doi/10.1145/3147.3165&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Kim2020a&quot;&gt;[28]C. D. Kim, J. Jeong, and G. Kim, “Imbalanced Continual Learning with Partitioning Reservoir Sampling,” in &lt;i&gt;ECCV&lt;/i&gt;, 2020, vol. 12358 LNCS, pp. 411–428, doi: 10.1007/978-3-030-58601-0_25. &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Pomponi2020a&quot;&gt;[29]J. Pomponi, S. Scardapane, V. Lomonaco, and A. Uncini, “Efficient continual learning in neural networks with embedding regularization,” &lt;i&gt;Neurocomputing&lt;/i&gt;, vol. 397, pp. 139–148, 2020, doi: 10.1016/j.neucom.2020.01.093. [Online]. Available at: https://doi.org/10.1016/j.neucom.2020.01.093&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Aljundi2019a&quot;&gt;[30]R. Aljundi &lt;i&gt;et al.&lt;/i&gt;, “Online Continual Learning with Maximally Interfered Retrieval,” &lt;i&gt;Advances in Neural Information Processing Systems&lt;/i&gt;, vol. 32, no. NeurIPS 2019, Aug. 2019 [Online]. Available at: http://arxiv.org/abs/1908.04742&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Delange2021&quot;&gt;[31]M. Delange &lt;i&gt;et al.&lt;/i&gt;, “A continual learning survey: Defying forgetting in classification tasks,” &lt;i&gt;IEEE Transactions on Pattern Analysis and Machine Intelligence&lt;/i&gt;, pp. 1–1, 2021, doi: 10.1109/TPAMI.2021.3057446. [Online]. Available at: http://arxiv.org/abs/1909.08383 https://github.com/Mattdl/CLsurvey https://ieeexplore.ieee.org/document/9349197/&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Muhammad Rifki Kurniawan</name><email>mrifkikurniawan17@gmail.com</email></author><category term="Continual Learning" /><category term="Deep Learning" /><category term="Machine Learning" /><summary type="html">Catastrophic Forgetting in Neural Networks Explained</summary></entry><entry><title type="html">From Cuneiform to Binary, from Stone to Cloud Memory</title><link href="http://localhost:4000/blog-posts/From_Cuneiform%20to_Binary,%20from_Stone_to_Cloud_Memory/" rel="alternate" type="text/html" title="From Cuneiform to Binary, from Stone to Cloud Memory" /><published>2020-03-25T00:00:00-07:00</published><updated>2020-03-25T00:00:00-07:00</updated><id>http://localhost:4000/blog-posts/From_Cuneiform%20to_Binary,_from_Stone_to_Cloud_Memory</id><content type="html" xml:base="http://localhost:4000/blog-posts/From_Cuneiform%20to_Binary,%20from_Stone_to_Cloud_Memory/">&lt;p&gt;[&lt;a href=&quot;https://medium.com/@rifkikurniawan17/dari-cuneiform-hingga-biner-dari-batu-hingga-cloud-memory-bagaimana-kita-menyimpan-data-dari-40fbdf5707a1&quot; title=&quot;Medium&quot;&gt;Medium&lt;/a&gt;]&lt;/p&gt;
 
 &lt;blockquote style=&quot;text-align: justify;&quot;&gt;
   &lt;p&gt;Just imagine we lived in the 7000 years ago when no letters of alphabet A, B, C to Z were found, or we could not count the number of our fish caught because there were no known names such as numbers 1,2,3 or 9. Then how do we convey event A or information B and then, furthermore, store it so that it becomes our track record in the future?&lt;/p&gt;
