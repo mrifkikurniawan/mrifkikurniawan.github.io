@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-28T07:52:31-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Profil Page</title><subtitle>Artificial Intelligence Engineering at Nodeflux | B.Eng of Engineering Physics</subtitle><author><name>Muhammad Rifki Kurniawan</name><email>mrifkikurniawan17@gmail.com</email></author><entry><title type="html">Catastrophic Forgetting in Neural Networks Explained</title><link href="http://localhost:4000/blog-posts/Catastrophic_Forgetting/" rel="alternate" type="text/html" title="Catastrophic Forgetting in Neural Networks Explained" /><published>2021-03-30T00:00:00-07:00</published><updated>2021-03-30T00:00:00-07:00</updated><id>http://localhost:4000/blog-posts/Catastrophic_Forgetting_in_Neural_Networks_Explained</id><content type="html" xml:base="http://localhost:4000/blog-posts/Catastrophic_Forgetting/">&lt;h1 id=&quot;what-is-catastrophic-forgetting&quot;&gt;What is Catastrophic Forgetting?&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-29T09:41:36-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Profil Page</title><subtitle>Artificial Intelligence Engineering at Nodeflux | B.Eng of Engineering Physics</subtitle><author><name>Muhammad Rifki Kurniawan</name><email>mrifkikurniawan17@gmail.com</email></author><entry><title type="html">Catastrophic Forgetting in Neural Networks Explained</title><link href="http://localhost:4000/blog-posts/Catastrophic_Forgetting/" rel="alternate" type="text/html" title="Catastrophic Forgetting in Neural Networks Explained" /><published>2021-03-30T00:00:00-07:00</published><updated>2021-03-30T00:00:00-07:00</updated><id>http://localhost:4000/blog-posts/Catastrophic_Forgetting_in_Neural_Networks_Explained</id><content type="html" xml:base="http://localhost:4000/blog-posts/Catastrophic_Forgetting/">&lt;h1 id=&quot;what-is-catastrophic-forgetting&quot;&gt;What is Catastrophic Forgetting?&lt;/h1&gt;
 
 &lt;p style=&quot;text-align: justify;&quot;&gt;How humans learn is both extremely fascinating and mysterious especially when it comes to the capability to continuously learn new knowledge and skills without forgetting the past experiences. As an example, while we observe the physics phenomena such as the gravitation mechanism and, afterward, acquire new knowledge how the chemistry works, we are able to remember what gravitation is about and explain it effortlessly. In contrast, from the learning intelligence machine perspective, deep learning scientists highly struggle to incorporate the lifelong learning ability into machine learning architecture such as neural networks.&lt;/p&gt;
 
@@ -30,9 +30,15 @@ setting takes the batch of samples and updates the model parameters with respect
 
 &lt;p style=&quot;text-align: justify;&quot;&gt;Shortly, catastrophic forgetting is the radical performance drops of the model $f(X;\theta)$ which parameterized by $\theta$ with input $X$ — mostly neural networks exhibit distributed representation[1] — that map $X \rightarrow Y$ performing on previously learned tasks $t_{t}$ after learning on task $t_{n}$ where &lt;em&gt;t&lt;/em&gt; &amp;lt; &lt;em&gt;n&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;media/image1.jpeg&quot; alt=&quot;&quot; /&gt;{width=”6.5in” height=”3.466666666666667in”}&lt;/p&gt;
+&lt;figure class=&quot;align-center&quot;&gt;
+  &lt;img src=&quot;/images/catastrophic_forgetting/forgetting_cl_task.jpg&quot; alt=&quot;this is a placeholder image&quot; /&gt;
+  
+    &lt;figcaption&gt;
+      This is a figure caption.
 
-&lt;p&gt;Figure 1&lt;/p&gt;
+    &lt;/figcaption&gt;
+  
+&lt;/figure&gt;
 
 &lt;p style=&quot;text-align: justify;&quot;&gt;Consider as an illustration our neural networks train to discriminate
 between two classes of cat and dog. Therefore, the network is trained on bunches of datasets containing any variants of cat and dog for some
@@ -142,7 +148,7 @@ indicates that the networks still saved the past information.&lt;/p&gt;
 
 &lt;p style=&quot;text-align: justify;&quot;&gt;Activation overlap initially proposed by French&lt;a class=&quot;citation&quot; href=&quot;#French1993&quot;&gt;[12]&lt;/a&gt; who argue that due to distributed representation causing connectionist networks, forgetting can be measured by quantifying the overlapping in activation output. Recently, this formalized and modified by &lt;a class=&quot;citation&quot; href=&quot;#Ashley2021&quot;&gt;[8]&lt;/a&gt; by suggesting dot product of two different samples from whether intra-class or inter-class given same hidden parameters as following,&lt;/p&gt;
 
-\[s\left( a,b \right) = \frac{1}{n}\sum_{i = 0}^{n}{g_{\text{hi}}\left( a \right)\text{\ .\ \ }g_{\text{hi}}\left( b \right)}\]
+\[s\left( a,b \right) = \frac{1}{n}\sum_{i = 0}^{n}{g_{\text{hi}}\left( a \right)\text{.}g_{\text{hi}}\left( b \right)}\]
 
 &lt;p style=&quot;text-align: justify;&quot;&gt;Where $g_{\text{hi}}$ indicates hidden layer &lt;em&gt;i&lt;/em&gt; parameters of the
 networks and $g_{\text{hi}}\left( x \right)$ indicating activation
@@ -171,7 +177,7 @@ modular approach. In spite of those, in the recent past one year some
 scientists extend the study of moderating catastrophic forgetting a.k.a.&lt;/p&gt;
 
 &lt;p style=&quot;text-align: justify;&quot;&gt;continual learning to the search of connectivity with multi-task
-learning &lt;a class=&quot;citation&quot; href=&quot;#Mirzadeh2020a&quot;&gt;[15]&lt;/a&gt;, loss landscape approximation&lt;a class=&quot;citation&quot; href=&quot;#Mirzadeh2020a&quot;&gt;[15]&lt;/a&gt;&lt;a class=&quot;citation&quot; href=&quot;#Yin2020a&quot;&gt;[16]&lt;/a&gt;, relatedness with transfer learning&lt;a class=&quot;citation&quot; href=&quot;#Ke2020&quot;&gt;[17]&lt;/a&gt;, more challenging task settings &lt;a class=&quot;citation&quot; href=&quot;#SonglinDong2020&quot;&gt;[18]&lt;/a&gt;, &lt;a class=&quot;citation&quot; href=&quot;#Zhao2020&quot;&gt;[19]&lt;/a&gt;, &lt;a class=&quot;citation&quot; href=&quot;#Bertugli2020&quot;&gt;[20]&lt;/a&gt;, &lt;a class=&quot;citation&quot; href=&quot;#Caccia2020&quot;&gt;[21]&lt;/a&gt;, &lt;a class=&quot;citation&quot; href=&quot;#Ren2019&quot;&gt;[22]&lt;/a&gt;, &lt;a class=&quot;citation&quot; href=&quot;#Dhamija2021&quot;&gt;[23]&lt;/a&gt;, &lt;a class=&quot;citation&quot; href=&quot;#Rao2019&quot;&gt;[24]&lt;/a&gt; and even expanding beyond image classification task.&lt;/p&gt;
+learning &lt;a class=&quot;citation&quot; href=&quot;#Mirzadeh2020a&quot;&gt;[15]&lt;/a&gt;, loss landscape approximation&lt;a class=&quot;citation&quot; href=&quot;#Mirzadeh2020a&quot;&gt;[15]&lt;/a&gt;&lt;a class=&quot;citation&quot; href=&quot;#Yin2020a&quot;&gt;[16]&lt;/a&gt;, relatedness with transfer learning&lt;a class=&quot;citation&quot; href=&quot;#Ke2020&quot;&gt;[17]&lt;/a&gt;, more challenging task settings &lt;a class=&quot;citation&quot; href=&quot;#SonglinDong2020&quot;&gt;[18]&lt;/a&gt;&lt;a class=&quot;citation&quot; href=&quot;#Zhao2020&quot;&gt;[19]&lt;/a&gt;&lt;a class=&quot;citation&quot; href=&quot;#Bertugli2020&quot;&gt;[20]&lt;/a&gt;&lt;a class=&quot;citation&quot; href=&quot;#Caccia2020&quot;&gt;[21]&lt;/a&gt;&lt;a class=&quot;citation&quot; href=&quot;#Ren2019&quot;&gt;[22]&lt;/a&gt;&lt;a class=&quot;citation&quot; href=&quot;#Dhamija2021&quot;&gt;[23]&lt;/a&gt;&lt;a class=&quot;citation&quot; href=&quot;#Rao2019&quot;&gt;[24]&lt;/a&gt; and even expanding beyond image classification task.&lt;/p&gt;
 
 &lt;h2 id=&quot;rehearsalreplay&quot;&gt;Rehearsal/Replay&lt;/h2&gt;
 
@@ -186,7 +192,7 @@ others this technique was mostly explored and proposed in past five
 years in continual learning seeing its simplicity and effectiveness as
 baseline for continual learning experiments.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;media/image4.png&quot; alt=&quot;&quot; /&gt;{width=”4.707699037620298in”
+&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; /&gt;{width=”4.707699037620298in”
 height=”2.6611570428696414in”}&lt;/p&gt;
 
 &lt;p&gt;Figure 4. Image source: &lt;a class=&quot;citation&quot; href=&quot;#Parisi2019a&quot;&gt;[25]&lt;/a&gt;&lt;/p&gt;

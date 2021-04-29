@@ -213,15 +213,15 @@
           
         
           
+            <li><a href="https://www.linkedin.com/in/muhammad-rifki-kurniawan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
             <li><a href="https://github.com/mrifkikurniawan" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">Github</span></a></li>
           
         
           
-            <li><a href="https://medium.com/@rifkikurniawan17" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">Medium</span></a></li>
-          
-        
-          
-            <li><a href="https://www.linkedin.com/in/muhammad-rifki-kurniawan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-medium" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+            <li><a href="https://medium.com/@rifkikurniawan17" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-medium" aria-hidden="true"></i><span class="label">Medium</span></a></li>
           
         
           
@@ -238,14 +238,6 @@
         
           
             <li><a href="https://www.goodreads.com/mrifkikurniawan" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-goodreads" aria-hidden="true"></i><span class="label">Goodreads</span></a></li>
-          
-        
-          
-            <li><a href="https://muhammadrifkikurniawan.blogspot.com/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-blogger" aria-hidden="true"></i><span class="label">Blog</span></a></li>
-          
-        
-          
-            <li><a href="https://mrifkikurniawan.wordpress.com/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-wordpress" aria-hidden="true"></i><span class="label">Wordpress</span></a></li>
           
         
       
@@ -423,9 +415,15 @@ setting takes the batch of samples and updates the model parameters with respect
 
 <p style="text-align: justify;">Shortly, catastrophic forgetting is the radical performance drops of the model $f(X;\theta)$ which parameterized by $\theta$ with input $X$ — mostly neural networks exhibit distributed representation[1] — that map $X \rightarrow Y$ performing on previously learned tasks $t_{t}$ after learning on task $t_{n}$ where <em>t</em> &lt; <em>n</em>.</p>
 
-<p><img src="media/image1.jpeg" alt="" />{width=”6.5in” height=”3.466666666666667in”}</p>
+<figure class="align-center">
+  <img src="/images/catastrophic_forgetting/forgetting_cl_task.jpg" alt="this is a placeholder image" />
+  
+    <figcaption>
+      This is a figure caption.
 
-<p>Figure 1</p>
+    </figcaption>
+  
+</figure>
 
 <p style="text-align: justify;">Consider as an illustration our neural networks train to discriminate
 between two classes of cat and dog. Therefore, the network is trained on bunches of datasets containing any variants of cat and dog for some
@@ -535,7 +533,7 @@ indicates that the networks still saved the past information.</p>
 
 <p style="text-align: justify;">Activation overlap initially proposed by French<a class="citation" href="#French1993">[12]</a> who argue that due to distributed representation causing connectionist networks, forgetting can be measured by quantifying the overlapping in activation output. Recently, this formalized and modified by <a class="citation" href="#Ashley2021">[8]</a> by suggesting dot product of two different samples from whether intra-class or inter-class given same hidden parameters as following,</p>
 
-\[s\left( a,b \right) = \frac{1}{n}\sum_{i = 0}^{n}{g_{\text{hi}}\left( a \right)\text{\ .\ \ }g_{\text{hi}}\left( b \right)}\]
+\[s\left( a,b \right) = \frac{1}{n}\sum_{i = 0}^{n}{g_{\text{hi}}\left( a \right)\text{.}g_{\text{hi}}\left( b \right)}\]
 
 <p style="text-align: justify;">Where $g_{\text{hi}}$ indicates hidden layer <em>i</em> parameters of the
 networks and $g_{\text{hi}}\left( x \right)$ indicating activation
@@ -564,7 +562,7 @@ modular approach. In spite of those, in the recent past one year some
 scientists extend the study of moderating catastrophic forgetting a.k.a.</p>
 
 <p style="text-align: justify;">continual learning to the search of connectivity with multi-task
-learning <a class="citation" href="#Mirzadeh2020a">[15]</a>, loss landscape approximation<a class="citation" href="#Mirzadeh2020a">[15]</a><a class="citation" href="#Yin2020a">[16]</a>, relatedness with transfer learning<a class="citation" href="#Ke2020">[17]</a>, more challenging task settings <a class="citation" href="#SonglinDong2020">[18]</a>, <a class="citation" href="#Zhao2020">[19]</a>, <a class="citation" href="#Bertugli2020">[20]</a>, <a class="citation" href="#Caccia2020">[21]</a>, <a class="citation" href="#Ren2019">[22]</a>, <a class="citation" href="#Dhamija2021">[23]</a>, <a class="citation" href="#Rao2019">[24]</a> and even expanding beyond image classification task.</p>
+learning <a class="citation" href="#Mirzadeh2020a">[15]</a>, loss landscape approximation<a class="citation" href="#Mirzadeh2020a">[15]</a><a class="citation" href="#Yin2020a">[16]</a>, relatedness with transfer learning<a class="citation" href="#Ke2020">[17]</a>, more challenging task settings <a class="citation" href="#SonglinDong2020">[18]</a><a class="citation" href="#Zhao2020">[19]</a><a class="citation" href="#Bertugli2020">[20]</a><a class="citation" href="#Caccia2020">[21]</a><a class="citation" href="#Ren2019">[22]</a><a class="citation" href="#Dhamija2021">[23]</a><a class="citation" href="#Rao2019">[24]</a> and even expanding beyond image classification task.</p>
 
 <h2 id="rehearsalreplay">Rehearsal/Replay</h2>
 
@@ -579,7 +577,7 @@ others this technique was mostly explored and proposed in past five
 years in continual learning seeing its simplicity and effectiveness as
 baseline for continual learning experiments.</p>
 
-<p><img src="media/image4.png" alt="" />{width=”4.707699037620298in”
+<p><img src="" alt="" />{width=”4.707699037620298in”
 height=”2.6611570428696414in”}</p>
 
 <p>Figure 4. Image source: <a class="citation" href="#Parisi2019a">[25]</a></p>
