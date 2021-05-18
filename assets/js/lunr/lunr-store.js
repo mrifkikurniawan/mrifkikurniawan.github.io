@@ -1,140 +1,20 @@
 var store = [{
-        "title": "Machine Learning",
-        "excerpt":"   Credential ID: JAH7M37LQNCM   This course provides a broad introduction to machine learning, data mining, and statistical pattern recognition. Topics include:     Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks).   Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning).   Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI).   The course will also draw from numerous case studies and applications, so that I also learn how to apply learning algorithms to building smart robots (perception, control), text understanding (web search, anti-spam), computer vision, medical informatics, audio, database mining, and other areas.   [Certificate]  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2019-01-02-Machine%20Learning-1",
-        "teaser": null
-      },{
-        "title": "Mathematics for Machine Learning Specialization",
-        "excerpt":"   Credential ID: RTJG6TEYE3MA   This specialization aims to bridge that gap, getting you up to speed in the underlying mathematics, building an intuitive understanding, and relating it to Machine Learning and Data Science. In the first course on Linear Algebra we look at what linear algebra is and how it relates to data. Then we look through what vectors and matrices are and how to work with them.   The second course, Multivariate Calculus, builds on this to look at how to optimize fitting functions to get good fits to data. It starts from introductory calculus and then uses the matrices and vectors from the first course to look at data fitting.   The third course, Dimensionality Reduction with Principal Component Analysis, uses the mathematics from the first two courses to compress high-dimensional data.   This course is of intermediate difficulty and will require basic Python and numpy knowledge. At the end of this specialization you will have gained the prerequisite mathematical knowledge to continue your journey and take more advanced courses in machine learning.   [Certificate]  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2019-02-18-Mathematics%20for%20Machine%20Learning%20Specialization-2",
-        "teaser": null
-      },{
-        "title": "AI For Everyone",
-        "excerpt":"   Credential ID: JSQ5XCGGXBRJ   AI is not only for engineers. This is the course to tell everyone–especially your non-technical colleagues–to take. In this course, I have learned:      The meaning behind common AI terminology, including neural networks, machine learning, deep learning, and data science   What AI realistically can–and cannot–do   How to spot opportunities to apply AI to problems in your own organization   What it feels like to build machine learning and data science projects   How to work with an AI team and build an AI strategy in your company   How to navigate ethical and societal discussions surrounding AI   Though this course is largely non-technical, engineers can also take this course to learn the business aspects of AI.   [Certificate]  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2019-03-16-AI%20For%20Everyone-3",
-        "teaser": null
-      },{
-        "title": "Practical Machine Learning on H2O",
-        "excerpt":"   Credential ID: DEZCUC5CTLMR   In this course, I learned all the core techniques needed to make effective use of H2O using H2O high-level library. The course covers the materials related to:     H2O and Fundamentals: Knowing the H2O documentations and understanding the difference between regression, binomial, multinomial, and unsupervised models.   Trees And Overfitting: Decision Tree, Random Forest, Gradient Boosting Machine (GBM), and the concept of overfitting.   Linear Models: linear models and grid training.   Deep Learning: early stopping, deep learning classifier, deep learning regressor.   Unsupervised Learning: autoencoder   Others: ensemble models, driveless AI.   [Certificate]  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2019-04-11-Practical%20Machine%20Learning%20on%20H2O-4",
-        "teaser": null
-      },{
-        "title": "Deep Learning Professional",
-        "excerpt":"   Credential ID: cb38b3d5816247049db37ce19c2cf73f   This course provides a broad in-depth applications of deep learning from CNN to LSTM-RNN using a veriety of deep learning frameworks, for instance Keras, PyTorch, and TensorFlow. Topics include:     Deep Learning Fundamentals with Keras. (View Certificate Here)   Deep Learning with Python and PyTorch. (View Certificate Here)   Deep Learning with Tensorflow. (View Certificate Here)   Using GPUs to Scale and Speed-up Deep Learning. (View Certificate Here)   Applied Deep Learning Capstone Project. (View Certificate Here)   [Certificate]  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2019-05-07-Deep%20Learning%20Professional-6",
-        "teaser": null
-      },{
-        "title": "Python for Everybody Specialization",
-        "excerpt":"   Credential ID: PTN67ASTUWQP   This Specialization builds on the success of the Python for Everybody course and introduce fundamental programming concepts including data structures, networked application program interfaces, and databases, using the Python programming language. In the Capstone Project, I have used the technologies learned throughout the Specialization to design and created my own applications for data retrieval, processing, and visualization.   [Certificate]  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2019-05-14-Python%20for%20Everybody%20Specialization-12",
-        "teaser": null
-      },{
-        "title": "Machine Learning with TensorFlow on Google Cloud Platform Specialization",
-        "excerpt":"   Courses include:     How Google does Machine Learning [Certificate]   Launching into Machine Learning [Certificate]   Intro to TensorFlow   Feature Engineering   Art and Science of Machine Learning  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2019-05-19-Machine%20Learning%20with%20TensorFlow%20on%20Google%20Cloud%20Platform-9",
-        "teaser": null
-      },{
-        "title": "Data Science Professional",
-        "excerpt":"   Courses include:     What is Data Science? [Certificate]   Open Source tools for Data Science [Certificate]   Data Science Methodology   Python for Data Science and AI   Databases and SQL for Data Science   Data Analysis with Python   Data Visualization with Python   Machine Learning with Python   Applied Data Science Capstone  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2019-06-15-Data%20Science%20Professional-11",
-        "teaser": null
-      },{
-        "title": "Deep Learning Specialization",
-        "excerpt":"   Credential ID: 9NFXTK8S5DEH   The Deep Learning Specialization is 5-courses designed to prepare learners to participate in the development of cutting-edge AI technology, and to understand the capability, the challenges, and the consequences of the rise of deep learning. Through five interconnected courses, learners develop a profound knowledge of the hottest AI algorithms, mastering deep learning from its foundations (neural networks) to its industry applications (Computer Vision, Natural Language Processing, Speech Recognition, etc.).   The specialization covers:     Neural Networks and Deep Learning   Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization   Structuring Machine Learning Projects   Convolutional Neural Networks   Sequence Models   [Certificate]  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2019-05-29-Deep%20Learning%20Specialization-5",
-        "teaser": null
-      },{
-        "title": "An Introduction to Practical Deep Learning",
-        "excerpt":"   Credential ID: MZPBWYK2MKQQ   This course provides an introduction to Deep Learning, a field that aims to harness the enormous amounts of data that we are surrounded by with artificial neural networks, allowing for the development of self-driving cars, speech interfaces, genomic sequence analysis and algorithmic trading.   [Certificate]  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2019-06-05-An%20Introduction%20to%20Practical%20Deep%20Learning-7",
-        "teaser": null
-      },{
-        "title": "Foundations of Data Science Professional",
-        "excerpt":"   Courses include:     Computational Thinking with Python [Certificate]   Inferential Thinking by Resampling [Certificate]   Prediction and Machine Learning  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2019-07-14-Foundations%20of%20Data%20Science%20Professional-14",
-        "teaser": null
-      },{
-        "title": "DeepLearning.AI TensorFlow Developer Professional Certificate",
-        "excerpt":"   Credential ID: UVMTWVLERW3Y   Discover the tools software developers use to build scalable AI-powered algorithms in TensorFlow, a popular open-source machine learning framework. Topics include:     Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning   Convolutional Neural Networks in TensorFlow   Natural Language Processing in TensorFlow   Sequences, Time Series and Prediction   [Certificate]  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2019-07-31-TensorFlow%20in%20Practice-10",
-        "teaser": null
-      },{
-        "title": "Fresh Graduate Academy 2019: Artificial Intelligence",
-        "excerpt":"   The 2-months training course and scholarship from Ministry of Communication and Information Technology of the Republic of Indonesia for developing Indonesia’s young talent in this vast development of digital ecosystem. The training cover topics on:     AWS Cloud Service   Introduction to Artificial Intelligence and Data Science   Data Science Tools   Data Science Methodology   Data Visualization with Python   Machine Learning   Deep Learning   Several Capstone Projects   [Certificate]  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2019-08-01-Fresh%20Graduate%20Academy%202019-Artificial%20Intelligence%20-17",
-        "teaser": null
-      },{
-        "title": "Getting Started With AI On Jetson Nano",
-        "excerpt":"   Credential ID: 8da8fdd38457473a869b945b260767b5   The power of AI is now in the hands of makers, self-taught developers, and embedded technology enthusiasts everywhere with the NVIDIA Jetson Nano Developer Kit. This easy-to-use, powerful computer lets you run multiple neural networks in parallel for applications like image classification, object detection, segmentation, and speech processing. In this course, I have used Jupyter iPython notebooks on Jetson Nano to build a deep learning classification project with computer vision models.   I have learnt how to:     Set up your Jetson Nano and camera   Collect image data for classification models   Annotate image data for regression models   Train a neural network on my own data to create my own models   Run inference on the Jetson Nano with the models I create   [Certificate]  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2019-08-06-Getting%20Started%20With%20AI%20On%20Jetson%20Nano-8",
-        "teaser": null
-      },{
-        "title": "Introduction to Computer Science and Programming Using Python",
-        "excerpt":"   Credential ID: 4558fd612f754ced9e5930872d415ee8   Certification for successfully completed and received a passing grade in Introduction to Computer Science and Programming Using Python a course of study offered by MITx, an online learning initiative of the Massachusetts Institute of Technology. Topics include:     A Notion of computation   The Python programming language   Some simple algorithms   Testing and debugging   An informal introduction to algorithmic complexity   Data structures   [Certificate]  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2019-08-09-Introduction%20to%20Computer%20Science%20and%20Programming%20Using%20Python-15",
-        "teaser": null
-      },{
-        "title": "Computer Vision Basics",
-        "excerpt":"   The course covers crucial elements that enable computer vision: digital signal processing, neuroscience and artificial intelligence.   Topics include color, light and image formation; early, mid- and high-level vision; and mathematics essential for computer vision. Learners will be able to apply mathematical techniques to complete computer vision tasks.   [Certificate]  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2019-09-02-Computer%20Vision%20Basics",
-        "teaser": null
-      },{
-        "title": "Microsoft Professional Program for Artificial Intelligence",
-        "excerpt":"   The program covers courses of Artificial Intelligence (AI) from broad perspective that is essential for AI professional from ethics to AI application on natural language processing, speech recognition and computer vision.   The program includes course on:     Introduction to Artificial Intelligence (AI) [Certificate]   Introduction to Python for Data Science [Certificate]   Essential Math for Machine Learning: Python Edition [Certificate]   Ethics and Law in Data and Analytics [Certificate]   Data Science Research Methods: Python Edition [Certificate]   Principles of Machine Learning: Python Edition [Certificate]   Deep Learning Explained [Certificate]   Reinforcement Learning Explained [Certificate]   Computer Vision and Image Analysis [Certificate]   Speech Recognition Systems [Certificate]   Natural Language Processing (NLP) [Certificate]   [Certificate]  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2019-07-27-Artificial%20Intelligence%20Professional-13",
-        "teaser": null
-      },{
-        "title": "Introduction to Intel® Distribution of OpenVINO™ toolkit for Computer Vision Applications",
-        "excerpt":"   This course provides easy access to the fundamental concepts of the Intel Distribution of OpenVINO toolkit. Throughout this course, we will be introduced to demos, showcasing the capabilities of this toolkit.   The course covers:     Foundational knowledge of Intel® Distribution of OpenVINO™ toolkit   The phases of the inference flow   Foundational knowledge of deep learning for computer vision applications   Intel® hardware acceleration and optimization techniques   [Certificate]  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2020-02-22-Introduction%20to%20Intel%C2%AE%20Distribution%20of%20OpenVINOTM%20toolkit%20for%20Computer%20Vision%20Applications",
-        "teaser": null
-      },{
-        "title": "OpenVINO Fundamental",
-        "excerpt":"   Learn the basic of AI at the Edge, leverage pre-trained models available with the Intel® Distribution of OpenVINO Toolkit™, convert and optimize other models with the Model Optimizer, and perform inference with the Inference Engine. The course covers:     Introduction to AI at Edge   Leveraging Pre-trained models   The model optimizer   The inference engine   Deploying an edge app   [Certificate]  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2020-03-20-OpenVINO%20Fundamental-16",
-        "teaser": null
-      },{
-        "title": "Deep Learning Essentials",
-        "excerpt":"   The course developed by IVADO, Mila and Université de Montréal offers diversified learning tools for you to fully grasp the extent of this ground-breaking cross-cutting technology, a critical need in the field.   Deep Learning is an extension of Machine Learning where machines can learn by experience without human intervention. It is largely influenced by the human brain in the fact that algorithms, or artificial neural networks, are able to learn from massive amounts of data and acquire skills that a human brain would. Thus, Deep learning is now able to tackle a large variety of tasks that were considered out of reach a few years ago in computer vision, signal processing, natural language processing, robotics, and sequential decision-making. Because of these recent advances, various industries are now deploying deep learning models that impact various economic sectors such as transport, health, finance, energy, as well as our daily life in general.   The course covers:     Machine Learning (ML) and Experimental Protocol   Introduction to Deep Learning   Intro to Convolutional Neural Networks (CNN)   Introduction to Recurrent Neural Networks   Bias and Discrimination in ML   [Certificate]  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/certifications/2020-10-03-Deep%20Learning%20Essentials",
-        "teaser": null
-      },{
         "title": "Hybrid Neural Network-Type-2 Fuzzy Logic for Maritime Weather Forecaster",
         "excerpt":"   This projects was from my bachelor thesis that is about apply hybrid method of Artificial Neural Network and Fuzzy Logic that weighted and optimized by Differential Evolution algorithm for calculating best weight for the hybrid models. This method was applied in maritime weather forecast of rain intensity, temperature, humidity, wind speed and direction.   [Paper] [Code]  ","categories": [],
         "tags": [],
-        "url": "https://mrifkikurniawan.github.io/portfolio/portfolio-3/",
+        "url": "https://mrifkikurniawan.github.io/portofolio/maritime_weather_forecaster/",
         "teaser": null
       },{
         "title": "Multi-label Classifier Trainer Pytorch Lightning",
         "excerpt":"Implementation of multi-label classifier on top of Pytorch Lightning.   [Code]  ","categories": [],
         "tags": [],
-        "url": "https://mrifkikurniawan.github.io/portfolio/portfolio-2/",
+        "url": "https://mrifkikurniawan.github.io/portofolio/multilabel_classifier_pytorchlighting/",
         "teaser": null
       },{
         "title": "Learning With Retrospection PyTorch Lightning",
         "excerpt":"Unofficial implementation of Learning With Retrospection research.   [Code]  ","categories": [],
         "tags": [],
-        "url": "https://mrifkikurniawan.github.io/portfolio/portfolio-1/",
+        "url": "https://mrifkikurniawan.github.io/portofolio/learning_with_retrospection/",
         "teaser": null
       },{
         "title": "From Cuneiform to Binary, from Stone to Cloud Memory",
@@ -154,16 +34,4 @@ var store = [{
         "tags": ["continual learning","deep learning","machine learning","neural network","catastrophic forgetting"],
         "url": "https://mrifkikurniawan.github.io/blog-posts/Catastrophic_Forgetting/",
         "teaser": "https://mrifkikurniawan.github.io/images/catastrophic_forgetting/forgetting_cl_task.jpg"
-      },{
-        "title": "Perancangan Mobile Predictor Cuaca Maritim Menggunakan Metode Hybrid Logika Fuzzy Tipe 2-Jaringan Syaraf Tiruan dengan Optimasi Algoritma Differential Evolution",
-        "excerpt":"Informasi cuaca maritim baik saat ini dan yang akan datang (prediksi) sangat berguna sebagai sistem pendukung dalam berbagai aktivitas maritim. Informasi tersebut sangat penting bagi nelayan untuk menentukan kelayakan jalur pelayaran. Bagi industri, informasi tersebut dapat digunakan sebagai pertimbangan aktivitas maritim seperti pada pembangkit energi terbarukan. Dalam konteks prediksi, beberapa prediktor masih menggunakan pendekatan statistik, di mana pendekatan ini memiliki akurasi rendah dan tidak dapat bekerja pada data nonliner. Penelitian ini merancang prediksi cuaca maritim menggunakan pendekatan artificial intelligence berupa sistem prediktor hybrid. Prediktor ini menggunakan prinsip persilangan antara dua metodologi, yaitu Interval Type 2 Fuzzy Inference System (IT2FIS) dan Jaringan Saraf Tiruan-Propagasi Balik (JST-BP). Di mana, prediktor hybrid bekerja dengan memberikan koefisien pada masing-masing keluaran prediktor. Koefisien-koefisien tersebut ditentukan berdasarkan proses optimasi dengan algoritma Differential Evolutin (DE). Hasil prediksi tersebut ditampilkan kepada pengguna melalui User Interface berbasis Android, sehingga informasi cuaca dapat diakses menggunakan mobile smartphone di manapun dan kapanpun oleh siapapun secara realtime. Penelitian ini menemukan bahwa prediktor hybrid memiliki keunggulan performa baik dalam parameter RMSE maupun MAPE pada semua variabel dibandingkan prediktor tunggal masing-masing (JST dan IT2FIS) saat proses pelatihan. Namun, dalam tahap pengujian performa prediktor hybrid tidak selalu lebih baik dari keduanya. Berdasarkan standar prediktor berbasis MAPE, prediktor suhu dan kelembaban termasuk ke dalam prediktor highly accurate, kecepatan angin termasuk reasonable forecast, dan prediktor arah angin dan curah hujan termasuk ke dalam inacurate forecast. Sementara, percobaan prediksi beberapa hari ke depan menghasilkan pola prediksi yang semakin konvergen seiring bertambahnya hari ke depan yang diprediksi, yang mana pola ini berlaku pada semua variabel.   [Paper] [Code]   Citation:  @article{kurniawanperancangan,   title={PERANCANGAN MOBILE PREDICTOR CUACA MARITIM MENGGUNAKAN METODE HYBRID LOGIKA FUZZY TIPE 2-JARINGAN SARAF TIRUAN DENGAN OPTIMASI ALGORITMA DIFFERENTIAL EVOLUTION},   author={Kurniawan, Muhammad Rifki and Arifin, Syamsul and Aisjah, Aulia Siti} }  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/publication/2018-07-01-paper-Perancangan%20Mobile%20Predictor%20Cuaca%20Maritim-number-3",
-        "teaser": null
-      },{
-        "title": "Optimization of neural network based on hybrid method of genetic algorithm and particle swarm optimization for maritime weather forecasting in buoyweather station type II",
-        "excerpt":"The object the research is to forecast maritime weather variables such wind speed and direction, temperature and wave height for an hour ahead by using artificial intelligence approach. Artificial intelligence is comprised of hybrid neural networks modified by genetic algorithms and particle swarm optimization which are functioned as a model predictor. The hybrid predictor works on every single predictor by weighing both artificial neural network-genetic algorithm (ANN-GA) and artificial neural network-particle swarm optimization (ANN-PSO) which weight is calculated by differential evolution algorithm optimization. When the unsurpassed model is obtained, it will be validated across real-time data that is delivered from type II buoyweather station measurement at the Madura Strait, Java Sea. The prediction results of learning and validation process indicate that the ANN-Hybrid predictor perform more accurate than the ANN-GA and ANN PSO on training and validation. However, the gap of RMSE on real-time test is relatively high compared to validation or training. It can be influenced by the different frequent of weather fluctuation between them. Concurring to real-time test stage, the foremost appropriate variable that predicted by this ANN-Hybrid is temperature.   [Paper]   Citation:  @article{doi:10.1063/1.5095287, author = {Arifin,Syamsul  and Mahistha,Dvitiya Srestha Prajna  and Ukhti,Magfiroh Fatwaning  and Kurniawan,Muhammad Rifki  and Aisjah,Aulia Siti }, title = {Optimization of neural network based on hybrid method of genetic algorithm and particle swarm optimization for maritime weather forecasting in buoyweather station type II}, journal = {AIP Conference Proceedings}, volume = {2088}, number = {1}, pages = {020035}, year = {2019}, doi = {10.1063/1.5095287}, URL = {https://aip.scitation.org/doi/abs/10.1063/1.5095287}, eprint = {https://aip.scitation.org/doi/pdf/10.1063/1.5095287}}  ","categories": [],
-        "tags": [],
-        "url": "https://mrifkikurniawan.github.io/publication/2019-03-01-paper-Optimization%20of%20neural%20network%20based%20on%20hybrid%20method-4",
-        "teaser": null
-      }]
+      },]
