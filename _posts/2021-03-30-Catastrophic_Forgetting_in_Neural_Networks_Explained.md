@@ -174,7 +174,7 @@ learning.
 
 Take an example of a binary classification task --- predicting whether
 given input *X* resulting discrete label 0 or 1 --- as illustrated in
-the figure 3 <d-cite key="French1999"></d-cite>{%cite Kolouri2019%} above, at the beginning the networks learn to predict the
+the figure 3 <d-cite key="French1999"></d-cite> above, at the beginning the networks learn to predict the
 dataset distribution on task 1 in such a way that resulting the model
 $f(X;\theta_{0})$ with obtained parameters $\theta_{0}$.  Then whenever
 the model acquires the new knowledge from dataset distribution on task 2 without certain continual learning technique, it will suffer from
