@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-1 paper accepted on Pattern Recognition Letters 
+Our paper [Topology-preserving transfer learning for weakly-supervised anomaly detection and segmentation](https://www.sciencedirect.com/science/article/abs/pii/S0167865523001265) has been accepted on Pattern Recognition Letters.
