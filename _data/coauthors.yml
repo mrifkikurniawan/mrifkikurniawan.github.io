@@ -9,6 +9,8 @@
 "Wei":
   - firstname: ["Xing", "X."]
     url: https://scholar.google.com/citations?user=KNyC5EUAAAAJ&hl=en&authuser=2&oi=sra
+  - firstname: ["Shenxing", "S"]
+    url: https://scholar.google.com.hk/citations?user=5RH0zBMAAAAJ&hl=zh-CN
 
 "Gong":
   - firstname: ["Yihong", "Y"]
@@ -19,9 +21,13 @@
     url: https://scholar.google.com/citations?user=y6ijVukAAAAJ&hl=en
   
 "Song":
-  - firstname: ["Xiang", "Z"]
+  - firstname: ["Xiang", "X"]
     url: https://scholar.google.com/citations?user=DnNdGckAAAAJ&hl=en
 
 "He":
-  - firstname: ["Yuhang", "Z"]
+  - firstname: ["Yuhang", "Y"]
     url: https://scholar.google.com.hk/citations?user=9VCIiVcAAAAJ&hl=en
+
+"Qi":
+  - firstname: ["Yang", "Y"]
+    url: https://gr.xjtu.edu.cn/en/web/yangqi
