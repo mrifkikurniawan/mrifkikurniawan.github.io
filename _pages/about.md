@@ -2,21 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: Machine Learning Engineer at <a href='https://fintelite.ai/'>Fintelite</a> | Continual Learner at <a href='http://www.xjtu.edu.cn/'>Xi'an Jiaotong University</a>
+subtitle: Senior Data Scientist at <a href='https://fintelite.ai/'>GoTo Group</a> | PhD Student at <a href='https://www.rochester.edu/'>University of Rochester</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Gresik, Indonesia 61151</p>
+    <p>Jakarta, Indonesia 12230</p>
 
-news: true  # includes a list of news items
+news: true  # includes a list of news itemsß
 latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm machine learning engineer at [Fintelite](https://fintelite.ai/), working on AI for finance, and graduate student at Xi'an Jiatong University, working on continual learning and vision-language model. Recently, I completed my master degree in Computer Science and Technology at [Xi'an Jiaotong University](http://www.xjtu.edu.cn/). During this period, I had the privilege of being part of the [Machine Intelligence and Vision Group (MIV-XJTU)](https://mp.weixin.qq.com/s/TNflPIMQyqlQXU2C8pPN-w), under the guidance of [Prof. Yang Qi](https://gr.xjtu.edu.cn/en/web/yangqi) and [Prof. Xing Wei](https://gr.xjtu.edu.cn/en/web/weixing). Where, I am actively engaged in research on enhancing the capability of neural networks to *learning continuously without forgetting*. 
+I'm Senior Data Scientist at [GoTo Group](https://www.gotocompany.com/en), working on eKYC with computer vision, and PhD student at [University of Rochester](https://www.rochester.edu/) with supervision of [Prof. Christopher Kanan](http://chriskanan.com/). I am interested in learning deep neural networks in continual settings without catastrophic forgetting and how shape bias improve generalization on neural networks.
 
-Previously, I was also an AI engineer at [Nodeflux](http://nodeflux.io/ "Nodeflux") working on end-to-end deep learning-based for vision analytics. Prior to this, I completed my bachelor degree in engineering physics at [Institut Teknologi Sepuluh Nopember Surabaya](https://www.its.ac.id/ "Institut Teknologi Sepuluh Nopember Surabaya") where I strated on my neural network journey under the mentorship of [Dr. Syamsul Arifin](https://scholar.its.ac.id/en/persons/syamsul-arifin "Dr. Syamsul Arifin") and [Prof. Aulia Siti Aisjah](https://scholar.google.com/citations?user=o7hyMS4AAAAJ&hl=en&authuser=1 "Prof. Aulia Siti Aisjah"). I enjoy diving into the world of non-fiction books, spanning various subjects, including science, neuroscience and history.
+I got my master's in Computer Science from [Xi'an Jiaotong University](http://www.xjtu.edu.cn/), where I worked with the awesome [Machine Intelligence and Vision Group (MIV-XJTU)](https://mp.weixin.qq.com/s/TNflPIMQyqlQXU2C8pPN-w). Under [Prof. Yang Qi](https://gr.xjtu.edu.cn/en/web/yangqi) and [Prof. Xing Wei](https://gr.xjtu.edu.cn/en/web/weixing), I researched ways to help neural networks learn new things without forgetting old ones. Before that, I worked as an ML Engineer at [Fintelite](https://fintelite.ai/) doing AI for finance, and at [Nodeflux](http://nodeflux.io/ "Nodeflux") building end-to-end deep learning for vision systems. I started my journey in tech with a bachelor's in engineering physics from [Institut Teknologi Sepuluh Nopember Surabaya](https://www.its.ac.id/ "Institut Teknologi Sepuluh Nopember Surabaya"), where [Dr. Syamsul Arifin](https://scholar.its.ac.id/en/persons/syamsul-arifin "Dr. Syamsul Arifin") and [Prof. Aulia Siti Aisjah](https://scholar.google.com/citations?user=o7hyMS4AAAAJ&hl=en&authuser=1 "Prof. Aulia Siti Aisjah") first got me excited about neural networks.
+
+I enjoy diving into the world of non-fiction books, spanning various subjects, including science, neuroscience and history.
