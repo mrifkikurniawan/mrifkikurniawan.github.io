@@ -6,7 +6,7 @@ subtitle: Senior Data Scientist at <a href='https://www.gotocompany.com/en'>GoTo
 
 profile:
   align: right
-  image: prof_pic2.jpeg
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Jakarta, Indonesia 12230</p>
