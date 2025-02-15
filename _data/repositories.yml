@@ -1,8 +1,12 @@
 github_users:
   - mrifkikurniawan
 
+repo_description_lines_max: 2
+
 github_repos:
+  - MIV-XJTU/EvoPrompt
   - mrifkikurniawan/sslad
   - mrifkikurniawan/multi-label-classification
   - mrifkikurniawan/LearningWithRetrospection
   - mrifkikurniawan/Maritime-Weather-Forecaster
+  - datascienceid/datasciencecurriculum

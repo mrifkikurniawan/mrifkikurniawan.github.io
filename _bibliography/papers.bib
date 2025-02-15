@@ -3,6 +3,26 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{kurniawan2024evoprompt,
+  abbr={AAAI},
+  title={Evolving Parameterized Prompt Memory for Continual Learning},
+  author={Kurniawan, Muhammad Rifki and Song, Xiang and Ma, Zhiheng and He, Yuhang and Gong, Yihong and Qi, Yang and Wei, Xing },
+  year={2024},  
+  abstract={Recent studies have demonstrated the potency of leveraging prompts in Transformers for continual learning (CL). Nevertheless, employing a discrete key-prompt bottleneck can lead to selection mismatches and inappropriate prompt associations during testing. Furthermore, this approach hinders adaptive prompting due to the lack of shareability among nearly identical instances at more granular level. To address these challenges, we introduce the Evolving Parameterized Prompt Memory (EvoPrompt), a novel method involving adaptive and continuous prompting attached to pre-trained Vision Transformer (ViT), conditioned on specific instance. We formulate a continuous prompt function as a neural bottleneck and encode the collection of prompts on network weights. We establish a paired prompt memory system consisting of a stable reference and a flexible working prompt memory. Inspired by linear mode connectivity, we progressively fuse the working prompt memory and reference prompt memory during inter-task periods, resulting in continually evolved prompt memory. This fusion involves aligning functionally equivalent prompts using optimal transport and aggregating them in parameter space with an adjustable bias based on prompt node attribution. Additionally, to enhance backward compatibility, we propose compositional classifier initialization, which leverages prior prototypes from pre-trained models to guide the initialization of new classifiers in a subspace-aware manner. Comprehensive experiments validate that our approach achieves state-of-the-art performance in both class and domain incremental learning scenarios.},
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+  keywords = {Continual Learning, Transfer, Domain Adaptation, Multi-Task Learning},
+  dimensions={true},
+  selected={true},
+  bibtex_show={true},
+  preview={evoprompt.svg},
+  award_name={Oral},
+  blog={https://mrifkikurniawan.github.io/blog/2024/EvoPrompt/},
+  award={Top 2.3%},
+  google_scholar_id={zYLM7Y9cAGgC},
+  pdf={https://ojs.aaai.org/index.php/AAAI/article/view/29231},
+  code={https://github.com/MIV-XJTU/EvoPrompt}
+}
+
 @article{WEI202377,
   abbr={PRL},
   title={Topology-preserving transfer learning for weakly-supervised anomaly detection and segmentation},
@@ -20,6 +40,8 @@
   selected={true},
   bibtex_show={true},
   preview={anomaly_prl.svg},
+  google_scholar_id={IjCSPb-OGe4C},
+  code={https://github.com/Whishing/TPTL-AD}
 }
 
 @article{Kurniawan2021OnlineCL,
@@ -37,6 +59,7 @@
   preview={online_cl_sslad.svg},
   code={https://github.com/mrifkikurniawan/sslad},
   slides={https://intip.in/pptxjtusslad3a},
+  google_scholar_id={2osOgNQ5qMEC},
 }
 
 @article{doi:10.1063/1.5095287,
@@ -55,6 +78,7 @@
   dimensions={true},
   selected={false},
   bibtex_show={true},
+  google_scholar_id={u5HHmVD_uO8C},
 }
 
 @article{kurniawanperancangan,
@@ -69,20 +93,5 @@
   selected={false},
   bibtex_show={true},
   code={https://github.com/mrifkikurniawan/Maritime-Weather-Forecaster},
-}
-
-@article{kurniawan2024evoprompt,
-  abbr={AAAI},
-  title={Evolving Parameterized Prompt Memory for Continual Learning},
-  author={Kurniawan, Muhammad Rifki and Song, Xiang and Ma, Zhiheng and He, Yuhang and Gong, Yihong and Qi, Yang and Wei, Xing },
-  year={2024},  
-  abstract={Recent studies have demonstrated the potency of leveraging prompts in Transformers for continual learning (CL). Nevertheless, employing a discrete key-prompt bottleneck can lead to selection mismatches and inappropriate prompt associations during testing. Furthermore, this approach hinders adaptive prompting due to the lack of shareability among nearly identical instances at more granular level. To address these challenges, we introduce the Evolving Parameterized Prompt Memory (EvoPrompt), a novel method involving adaptive and continuous prompting attached to pre-trained Vision Transformer (ViT), conditioned on specific instance. We formulate a continuous prompt function as a neural bottleneck and encode the collection of prompts on network weights. We establish a paired prompt memory system consisting of a stable reference and a flexible working prompt memory. Inspired by linear mode connectivity, we progressively fuse the working prompt memory and reference prompt memory during inter-task periods, resulting in continually evolved prompt memory. This fusion involves aligning functionally equivalent prompts using optimal transport and aggregating them in parameter space with an adjustable bias based on prompt node attribution. Additionally, to enhance backward compatibility, we propose compositional classifier initialization, which leverages prior prototypes from pre-trained models to guide the initialization of new classifiers in a subspace-aware manner. Comprehensive experiments validate that our approach achieves state-of-the-art performance in both class and domain incremental learning scenarios.},
-  journal={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
-  keywords = {Continual Learning, Transfer, Domain Adaptation, Multi-Task Learning},
-  dimensions={true},
-  selected={true},
-  bibtex_show={true},
-  preview={evoprompt.svg},
-  highlight={Oral},
-  blog={https://mrifkikurniawan.github.io/blog/2024/EvoPrompt/},
+  google_scholar_id={u-x6o8ySG0sC},
 }

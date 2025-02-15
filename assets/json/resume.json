@@ -1,0 +1,195 @@
+{
+  "basics": {
+    "name": "Muhammad Rifki Kurniawan",
+    "label": "Senior Data Scientist & PhD Student",
+    "email": "mrifkikurniawan17@gmail.com",
+    "url": "https://mrifkikurniawan.github.io/",
+    "summary": "Senior Data Scientist and PhD Student with interest in continual learning, representation learning, and vision-language models.",
+    "location": {
+      "city": "Jakarta",
+      "region": "DKI Jakarta",
+      "countryCode": "ID",
+      "postalCode": "12230"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "muhammad-rifki-kurniawan",
+        "url": "https://www.linkedin.com/in/muhammad-rifki-kurniawan/"
+      },
+      {
+        "network": "GitHub",
+        "username": "mrifkikurniawan",
+        "url": "https://github.com/mrifkikurniawan"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "University of Rochester",
+      "area": "Computer Science",
+      "url": "https://www.rochester.edu/",
+      "studyType": "PhD Student",
+      "startDate": "2024-08",
+      "endDate": "Present",
+      "location": "Rochester, USA",
+      "summary": "Working on shape-bias for domain generalization and continual learning. Supervisor: Prof. Christopher Kanan.",
+      "courses": ["End-to-end Deep Learning"]
+    },
+    {
+      "institution": "Xi'an Jiaotong University",
+      "area": "Computer Science and Technology",
+      "studyType": "Master of Engineering",
+      "startDate": "2020-09",
+      "endDate": "2023-09",
+      "location": "Xi'an, China",
+      "summary": "Joined Machine Intelligence and Vision (MIV-XJTU) Group and worked on continual learning. Supervisor: Prof. Yang Qi, Prof. Xing Wei.",
+      "courses": ["Big Data and Deep Learning", "Computer Vision"]
+    },
+    {
+      "institution": "Institut Teknologi Sepuluh Nopember",
+      "area": "Engineering Physics",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2014-09",
+      "endDate": "2018-09",
+      "location": "Surabaya, Indonesia",
+      "summary": "Supervised by Dr. Syamsul Arifin and Prof. Aulia Siti Aisjah.",
+      "courses": ["Neural Networks"]
+    }
+  ],
+  "work": [
+    {
+      "name": "GoTo Group",
+      "position": "Senior Data Scientist",
+      "startDate": "2025-02",
+      "endDate": "Present",
+      "location": "Jakarta, Indonesia",
+      "summary": "Working on eKYC and computer vision projects."
+    },
+    {
+      "name": "Fintelite",
+      "position": "Machine Learning (ML) Engineer",
+      "startDate": "2024-01",
+      "endDate": "2024-09",
+      "location": "Jakarta, Indonesia",
+      "summary": "Developing multi-modal LLM-based key information extraction systems.",
+      "highlights": [
+        "Integrated multi-modal LLM for document key information extraction.",
+        "Optimized prompt templates for efficient extraction.",
+        "Enhanced dataset annotation platform with new tools.",
+        "Introduced dataset versioning using Hugging Face datasets.",
+        "Developed document-agnostic key information extraction system."
+      ]
+    },
+    {
+      "name": "Nodeflux",
+      "position": "Artificial Intelligence (AI) Engineer",
+      "startDate": "2019-09",
+      "endDate": "2023-12",
+      "location": "Jakarta, Indonesia",
+      "summary": "Developing and optimizing AI systems for real-time computer vision analytics.",
+      "highlights": [
+        "Developed end-to-end AI systems for real-time analytics.",
+        "Optimized deep learning models for face and vehicle recognition.",
+        "Improved LPR pipeline efficiency and accuracy.",
+        "Explored novel object detection architectures.",
+        "Implemented active learning techniques for object detection."
+      ]
+    }
+  ],
+  "volunteer": [
+      {
+        "organization": "Data Science Indonesia",
+        "position": "Data Curriculum Program Lead",
+        "startDate": "2020-04",
+        "endDate": "2022-04",
+        "summary": "Developed a comprehensive data-focused curriculum for data scientists, engineers, and analysts.",
+        "highlights": [
+          "Led a team of 11 experts to strategize and develop the curriculum.",
+          "Created a GitHub repository with over 160 stars and a GitBook learning roadmap."
+        ]
+      }
+    ],
+    "publications": [
+      {
+        "name": "Evolving Parameterized Prompt Memory for Continual Learning",
+        "publisher": "AAAI Conference on Artificial Intelligence",
+        "releaseDate": "2024",
+        "url": "",
+        "summary": "Research on evolving parameterized prompt memory techniques to improve continual learning."
+      },
+      {
+        "name": "Contextual Prompting for Continual Learning",
+        "publisher": "Master Thesis",
+        "releaseDate": "2023",
+        "url": "",
+        "summary": "Master thesis exploring contextual prompting strategies for continual learning."
+      },
+      {
+        "name": "Feature Space Topology-Preserving Transfer for Anomaly Detection",
+        "publisher": "Pattern Recognition Letters",
+        "releaseDate": "2023",
+        "url": "",
+        "summary": "Study on preserving feature space topology to improve anomaly detection performance."
+      },
+      {
+        "name": "Online Continual Learning via Multiple Deep Metric Learning and Uncertainty-guided Episodic Memory Replay",
+        "publisher": "ArXiv",
+        "releaseDate": "2021",
+        "url": "",
+        "summary": "Preprint discussing multiple deep metric learning techniques for online continual learning."
+      },
+      {
+        "name": "Optimization of Neural Network Based on Hybrid Method of Genetic Algorithm and Particle Swarm Optimization for Maritime Weather Forecasting in Buoyweather Station Type II",
+        "publisher": "AIP Conference Proceedings",
+        "releaseDate": "2019",
+        "url": "",
+        "summary": "Optimization study combining genetic algorithm and particle swarm optimization for weather forecasting."
+      },
+      {
+        "name": "Design of Mobile Predictor for Maritime Weather Forecasting Using Hybrid Method of Type-2 Fuzzy Logic and Artificial Neural Network with Differential Evolution Algorithm Optimization",
+        "publisher": "Bachelor Thesis",
+        "releaseDate": "2018",
+        "url": "https://doi.org/10.13140/RG.2.2.27518.84803",
+        "summary": "Thesis on designing a mobile predictor for maritime weather forecasting using hybrid AI methods."
+      }
+    ]
+  ,
+  "awards": [
+    {
+      "title": "3rd place in Continual Learning Challenge at ICCV 2021",
+      "date": "2021"
+    },
+    {
+      "title": "Chinese Government Scholarship (CSC) for Master Study",
+      "date": "2020"
+    }
+  ],
+  "certificates": [
+      {
+        "name": "Microsoft Professional Program in Artificial Intelligence",
+        "date": "2019",
+        "issuer": "Microsoft and edX"
+      },
+      {
+        "name": "DeepLearning.AI TensorFlow Developer Professional",
+        "date": "2019",
+        "issuer": "DeepLearning.AI and Coursera"
+      },
+      {
+        "name": "Deep Learning Professional",
+        "date": "2019",
+        "issuer": "IBM and edX"
+      },
+      {
+        "name": "Deep Learning Specialization",
+        "date": "2020",
+        "issuer": "DeepLearning.AI and Coursera"
+      },
+      {
+        "name": "Mathematics for Machine Learning Specialization",
+        "date": "2019",
+        "issuer": "Imperial College London and Coursera"
+      }
+    ]
+}

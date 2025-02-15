@@ -106,7 +106,7 @@ Shortly, catastrophic forgetting is the radical performance drops of the model $
 
 <div class="fake-img l-body">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include figure.html path="assets/img/catastrophic_forgetting/forgetting_cl_task.jpg" zoomable=true class="img-fluid rounded z-depth-1 center"%}
+        {% include figure.liquid path="assets/img/catastrophic_forgetting/forgetting_cl_task.jpg" zoomable=true class="img-fluid rounded z-depth-1 center"%}
     </div>
 </div>
 <div class="caption">
@@ -151,7 +151,7 @@ The direct ramification of parameters shifting outputs distribution deviation of
 ## Inter-domain and inter-task confusion
 <div class="fake-img l-body">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include figure.html path="assets/img/catastrophic_forgetting/forgetting_inter_task.svg" zoomable=true class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/catastrophic_forgetting/forgetting_inter_task.svg" zoomable=true class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -165,7 +165,7 @@ learning.
 
 <div class="fake-img l-body">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include figure.html path="assets/img/catastrophic_forgetting/forgetting_forgetting.svg" style="width:85%" zoomable=true class="img-fluid rounded z-depth-1 center" %}
+        {% include figure.liquid path="assets/img/catastrophic_forgetting/forgetting_forgetting.svg" style="width:85%" zoomable=true class="img-fluid rounded z-depth-1 center" %}
     </div>
 </div>
 <div class="caption">
@@ -293,7 +293,7 @@ baseline for continual learning experiments.
 
 <div class="fake-img l-body">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include figure.html path="assets/img/catastrophic_forgetting/forgetting_hippo.svg" style="width:85%" zoomable=true class="img-fluid rounded z-depth-1 center" %}
+        {% include figure.liquid path="assets/img/catastrophic_forgetting/forgetting_hippo.svg" style="width:85%" zoomable=true class="img-fluid rounded z-depth-1 center" %}
     </div>
 </div>
 <div class="caption">
@@ -333,7 +333,7 @@ Up till now, according to <d-cite key="Delange2021"></d-cite>, some of experimen
 
 <div class="fake-img l-body">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include figure.html path="assets/img/catastrophic_forgetting/ewc.svg" style="width:85%" zoomable=true class="img-fluid rounded z-depth-1 center" %}
+        {% include figure.liquid path="assets/img/catastrophic_forgetting/ewc.svg" style="width:85%" zoomable=true class="img-fluid rounded z-depth-1 center" %}
     </div>
 </div>
 <div class="caption">
@@ -355,7 +355,7 @@ While architectural-based approach mainly concerned with constructing progressiv
 
 <div class="fake-img l-body">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include figure.html path="assets/img/catastrophic_forgetting/progessive_networks.svg" style="width:85%" zoomable=true class="img-fluid rounded z-depth-1 center" %}
+        {% include figure.liquid path="assets/img/catastrophic_forgetting/progessive_networks.svg" style="width:85%" zoomable=true class="img-fluid rounded z-depth-1 center" %}
     </div>
 </div>
 <div class="caption">
