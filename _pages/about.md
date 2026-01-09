@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Senior Data Scientist at <a href='https://www.gotocompany.com/en'>GoTo Group</a> | PhD Student at <a href='https://www.rochester.edu/'>University of Rochester</a>
+subtitle: PhD Student at <a href='https://www.rochester.edu/'>University of Rochester</a>
 
 profile:
   align: right
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>Jakarta, Indonesia 12230</p>
+  more_info: >
+    <p>Rochester, NY 14627, USA</p>
 
 news: true  # includes a list of news itemsß
 latest_posts: true  # includes a list of the newest posts
@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm Senior Data Scientist at [GoTo Financial](https://www.gotocompany.com/en/products/goto-financial), member of [GoTo Group](https://www.gotocompany.com/en), working on eKYC with computer vision, and PhD student at [University of Rochester](https://www.rochester.edu/) with supervision of [Prof. Christopher Kanan](http://chriskanan.com/). I am interested in learning deep neural networks in continual settings without catastrophic forgetting and how shape bias improve generalization on neural networks.
+I am a PhD student at the [University of Rochester](https://www.rochester.edu/), advised by [Prof. Christopher Kanan](http://chriskanan.com/). My research focuses on continual learning in deep neural networks.
 
-I got my master's in Computer Science from [Xi'an Jiaotong University](http://www.xjtu.edu.cn/), where I worked with the awesome [Machine Intelligence and Vision Group (MIV-XJTU)](https://mp.weixin.qq.com/s/TNflPIMQyqlQXU2C8pPN-w). Under [Prof. Yang Qi](https://gr.xjtu.edu.cn/en/web/yangqi) and [Prof. Xing Wei](https://gr.xjtu.edu.cn/en/web/weixing), I researched ways to help neural networks learn new things without forgetting old ones from pre-trained models. Before that, I worked as an ML Engineer at [Fintelite](https://fintelite.ai/) doing AI for finance, and at [Nodeflux](http://nodeflux.io/ "Nodeflux") building end-to-end deep learning for vision systems. I started my journey in tech with a bachelor's in engineering physics from [Institut Teknologi Sepuluh Nopember](https://www.its.ac.id/ "Institut Teknologi Sepuluh Nopember Surabaya"), where [Dr. Syamsul Arifin](https://scholar.its.ac.id/en/persons/syamsul-arifin "Dr. Syamsul Arifin") and [Prof. Aulia Siti Aisjah](https://scholar.google.com/citations?user=o7hyMS4AAAAJ&hl=en&authuser=1 "Prof. Aulia Siti Aisjah") first got me excited about neural networks.
+Previously, I was a Senior Data Scientist at [GoTo Financial (GoTo Group)](https://www.linkedin.com/company/gotogroup/). I earned my Master's in Computer Science from [Xi'an Jiaotong University](http://www.xjtu.edu.cn/), researching continual learning at the [MIV-XJTU](https://mp.weixin.qq.com/s/TNflPIMQyqlQXU2C8pPN-w) group under [Prof. Xing Wei](https://gr.xjtu.edu.cn/en/web/weixing) and [Prof. Yang Qi](https://gr.xjtu.edu.cn/en/web/yangqi). Earlier, I worked as an ML Engineer at [Fintelite](https://www.linkedin.com/company/fintelite/) and [Nodeflux](https://www.linkedin.com/company/nodeflux/). I hold a Bachelor's in Engineering Physics from [Institut Teknologi Sepuluh Nopember](https://www.its.ac.id/), where I was introduced to neural networks by [Dr. Syamsul Arifin](https://scholar.its.ac.id/en/persons/syamsul-arifin) and [Prof. Aulia Siti Aisjah](https://scholar.google.com/citations?user=o7hyMS4AAAAJ&hl=en&authuser=1).
 
-I enjoy diving into the world of non-fiction books, spanning various subjects, including science, neuroscience and history.
+I enjoy reading non-fiction books about science, history, and psychology.
